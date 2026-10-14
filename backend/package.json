@@ -1,0 +1,19 @@
+{
+  "name": "nhaa-stress-assessment-backend",
+  "version": "1.0.0",
+  "description": "AI-Based Real-Time Stress and Trauma Assessment Module for NHAA 14566 - MoSJE",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.3",
+    "mysql2": "^3.24.6",
+    "uuid": "^11.1.0"
+  }
+}

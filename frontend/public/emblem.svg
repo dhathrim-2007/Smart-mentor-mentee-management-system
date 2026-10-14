@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <circle cx="50" cy="50" r="48" stroke="#133E87" stroke-width="2.5" fill="#F8FAFC"/>
+  <!-- Ashoka Chakra Spokes & Circle -->
+  <circle cx="50" cy="50" r="28" stroke="#133E87" stroke-width="2"/>
+  <circle cx="50" cy="50" r="6" fill="#133E87"/>
+  <!-- 24 Spokes representation -->
+  <g stroke="#133E87" stroke-width="1.5" stroke-linecap="round">
+    <line x1="50" y1="22" x2="50" y2="78" />
+    <line x1="22" y1="50" x2="78" y2="50" />
+    <line x1="30.2" y1="30.2" x2="69.8" y2="69.8" />
+    <line x1="30.2" y1="69.8" x2="69.8" y2="30.2" />
+    <line x1="40" y1="24" x2="60" y2="76" />
+    <line x1="60" y1="24" x2="40" y2="76" />
+    <line x1="24" y1="40" x2="76" y2="60" />
+    <line x1="24" y1="60" x2="76" y2="40" />
+  </g>
+  <text x="50" y="88" text-anchor="middle" fill="#0B2545" font-size="6.5" font-weight="bold" font-family="sans-serif">सत्यमेव जयते</text>
+  <text x="50" y="14" text-anchor="middle" fill="#0B2545" font-size="5" font-weight="bold" font-family="sans-serif">GOVERNMENT OF INDIA</text>
+</svg>

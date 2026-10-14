@@ -1,0 +1,765 @@
+{
+  "users": [
+    {
+      "id": "usr-admin-1",
+      "name": "Dr. Arthur Pendelton",
+      "email": "admin@smartmentor.ai",
+      "password_hash": "$2b$10$yhSEBu.d1HZSmI8IT0Gt1.vpPEUu7lFwklS0wrehvlgA0KbLYKGMa",
+      "role": "ADMIN",
+      "status": "ACTIVE",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150",
+      "phone": "+1 (555) 901-2244",
+      "bio": "Dean of Student Mentorship & Academic Excellence initiatives.",
+      "created_at": "2026-01-10T09:00:00.000Z"
+    },
+    {
+      "id": "usr-mentor-1",
+      "name": "Dr. Elena Vance",
+      "email": "mentor@smartmentor.ai",
+      "password_hash": "$2b$10$yhSEBu.d1HZSmI8IT0Gt1.BNAX6DVGksu7Fc5J.9ch2II.0vfR1sq",
+      "role": "MENTOR",
+      "status": "ACTIVE",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150",
+      "phone": "+1 (555) 432-8877",
+      "bio": "Senior Principal AI Researcher at DeepTech Labs. Former MIT post-doc with 12+ years experience in deep learning, LLMs, and academic mentorship.",
+      "created_at": "2026-01-15T10:00:00.000Z"
+    },
+    {
+      "id": "usr-mentor-2",
+      "name": "Marcus Sterling",
+      "email": "marcus@smartmentor.ai",
+      "password_hash": "$2b$10$yhSEBu.d1HZSmI8IT0Gt1.BNAX6DVGksu7Fc5J.9ch2II.0vfR1sq",
+      "role": "MENTOR",
+      "status": "ACTIVE",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150",
+      "phone": "+1 (555) 321-9988",
+      "bio": "Staff Cloud Architect at Nexus Systems. Expert in Kubernetes, AWS distributed architectures, and microservices scalability.",
+      "created_at": "2026-01-18T11:00:00.000Z"
+    },
+    {
+      "id": "usr-mentor-3",
+      "name": "Priya Sharma",
+      "email": "priya@smartmentor.ai",
+      "password_hash": "$2b$10$yhSEBu.d1HZSmI8IT0Gt1.BNAX6DVGksu7Fc5J.9ch2II.0vfR1sq",
+      "role": "MENTOR",
+      "status": "ACTIVE",
+      "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150",
+      "phone": "+1 (555) 678-2233",
+      "bio": "Lead Data Engineer & Analytics Manager at FinCorp. Passionate about helping students break into big data pipelines and machine learning engineering.",
+      "created_at": "2026-02-01T12:00:00.000Z"
+    },
+    {
+      "id": "usr-mentor-4",
+      "name": "David Chen",
+      "email": "david@smartmentor.ai",
+      "password_hash": "$2b$10$yhSEBu.d1HZSmI8IT0Gt1.BNAX6DVGksu7Fc5J.9ch2II.0vfR1sq",
+      "role": "MENTOR",
+      "status": "ACTIVE",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150",
+      "phone": "+1 (555) 890-4455",
+      "bio": "Director of Cybersecurity & Information Assurance. Specializing in ethical hacking, zero-trust architectures, and security certifications.",
+      "created_at": "2026-02-10T14:00:00.000Z"
+    },
+    {
+      "id": "usr-mentor-5",
+      "name": "Sophia Patel",
+      "email": "sophia@smartmentor.ai",
+      "password_hash": "$2b$10$yhSEBu.d1HZSmI8IT0Gt1.BNAX6DVGksu7Fc5J.9ch2II.0vfR1sq",
+      "role": "MENTOR",
+      "status": "PENDING_APPROVAL",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+      "phone": "+1 (555) 765-1122",
+      "bio": "DevOps & Site Reliability Engineer at CloudScale. Applicant awaiting administrator credentials review.",
+      "created_at": "2026-03-01T08:30:00.000Z"
+    },
+    {
+      "id": "usr-student-1",
+      "name": "Alex Johnson",
+      "email": "student@smartmentor.ai",
+      "password_hash": "$2b$10$yhSEBu.d1HZSmI8IT0Gt1.Wo6nkuCoyjo0mEiPrJvB3ZPsM21qH2e",
+      "role": "STUDENT",
+      "status": "ACTIVE",
+      "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150",
+      "phone": "+1 (555) 234-5678",
+      "bio": "Junior B.Tech Computer Science student specializing in Artificial Intelligence and Natural Language Processing. Aiming for Top Tier AI Engineering roles.",
+      "created_at": "2026-01-20T10:00:00.000Z"
+    },
+    {
+      "id": "usr-student-2",
+      "name": "Maya Lin",
+      "email": "maya@smartmentor.ai",
+      "password_hash": "$2b$10$yhSEBu.d1HZSmI8IT0Gt1.Wo6nkuCoyjo0mEiPrJvB3ZPsM21qH2e",
+      "role": "STUDENT",
+      "status": "ACTIVE",
+      "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150",
+      "phone": "+1 (555) 345-6789",
+      "bio": "Sophomore Data Science & Mathematics student eager to master predictive analytics, SQL pipelines, and financial modeling.",
+      "created_at": "2026-01-22T11:00:00.000Z"
+    },
+    {
+      "id": "usr-student-3",
+      "name": "Carlos Rivera",
+      "email": "carlos@smartmentor.ai",
+      "password_hash": "$2b$10$yhSEBu.d1HZSmI8IT0Gt1.Wo6nkuCoyjo0mEiPrJvB3ZPsM21qH2e",
+      "role": "STUDENT",
+      "status": "ACTIVE",
+      "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150",
+      "phone": "+1 (555) 456-7890",
+      "bio": "Senior Systems Engineering student preparing for distributed systems development and cloud architecture interviews.",
+      "created_at": "2026-02-05T09:30:00.000Z"
+    },
+    {
+      "id": "usr-student-4",
+      "name": "Zara Ahmed",
+      "email": "zara@smartmentor.ai",
+      "password_hash": "$2b$10$yhSEBu.d1HZSmI8IT0Gt1.Wo6nkuCoyjo0mEiPrJvB3ZPsM21qH2e",
+      "role": "STUDENT",
+      "status": "ACTIVE",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150",
+      "phone": "+1 (555) 567-8901",
+      "bio": "3rd Year Cybersecurity & Network Systems student exploring penetration testing, cryptography, and defense protocols.",
+      "created_at": "2026-02-12T14:15:00.000Z"
+    }
+  ],
+  "studentProfiles": [
+    {
+      "id": "sp-1",
+      "user_id": "usr-student-1",
+      "university": "Tech University Institute of Technology",
+      "major": "Computer Science & AI",
+      "academic_year": "3rd Year (Junior)",
+      "gpa": 3.88,
+      "career_goals": "Become a Machine Learning Engineer working on foundational language models and production AI pipelines.",
+      "skills_sought": [
+        "Machine Learning",
+        "PyTorch",
+        "System Design",
+        "LLM Fine-tuning",
+        "Algorithms"
+      ],
+      "assigned_mentor_id": "usr-mentor-1",
+      "pairing_date": "2026-01-25T14:00:00.000Z"
+    },
+    {
+      "id": "sp-2",
+      "user_id": "usr-student-2",
+      "university": "State University of Science",
+      "major": "Data Science & Applied Statistics",
+      "academic_year": "2nd Year (Sophomore)",
+      "gpa": 3.75,
+      "career_goals": "Data Engineer / Analytics Specialist in fintech or high-scale consumer tech.",
+      "skills_sought": [
+        "SQL",
+        "Python Data Engineering",
+        "Spark",
+        "Cloud Warehousing",
+        "Data Modeling"
+      ],
+      "assigned_mentor_id": "usr-mentor-3",
+      "pairing_date": "2026-02-05T10:00:00.000Z"
+    },
+    {
+      "id": "sp-3",
+      "user_id": "usr-student-3",
+      "university": "Metropolitan Engineering College",
+      "major": "Computer Engineering & Systems",
+      "academic_year": "4th Year (Senior)",
+      "gpa": 3.65,
+      "career_goals": "Cloud Infrastructure / Distributed Systems Software Engineer.",
+      "skills_sought": [
+        "Cloud Architecture",
+        "Kubernetes",
+        "Go / Rust",
+        "Distributed Systems",
+        "DevOps"
+      ],
+      "assigned_mentor_id": null,
+      "pairing_date": null
+    },
+    {
+      "id": "sp-4",
+      "user_id": "usr-student-4",
+      "university": "National College of Information Sciences",
+      "major": "Cybersecurity & Defense Systems",
+      "academic_year": "3rd Year (Junior)",
+      "gpa": 3.91,
+      "career_goals": "Security Operations & Penetration Testing Analyst.",
+      "skills_sought": [
+        "Network Security",
+        "Penetration Testing",
+        "Cryptography",
+        "SIEM Tools",
+        "Zero Trust"
+      ],
+      "assigned_mentor_id": null,
+      "pairing_date": null
+    }
+  ],
+  "mentorProfiles": [
+    {
+      "id": "mp-1",
+      "user_id": "usr-mentor-1",
+      "organization": "DeepTech Labs",
+      "designation": "Principal AI Scientist",
+      "domain": "Artificial Intelligence & Machine Learning",
+      "expertise_skills": [
+        "Deep Learning",
+        "PyTorch",
+        "LLMs",
+        "Research Papers",
+        "Computer Vision",
+        "Algorithms"
+      ],
+      "years_experience": 12,
+      "max_mentees": 4,
+      "rating": 4.9,
+      "approval_status": "APPROVED",
+      "linkedin_url": "https://linkedin.com/in/elena-vance-ai"
+    },
+    {
+      "id": "mp-2",
+      "user_id": "usr-mentor-2",
+      "organization": "Nexus Systems",
+      "designation": "Staff Cloud Architect",
+      "domain": "Cloud Architecture & Distributed Systems",
+      "expertise_skills": [
+        "Cloud Architecture",
+        "AWS",
+        "Kubernetes",
+        "Microservices",
+        "Distributed Systems",
+        "System Design"
+      ],
+      "years_experience": 10,
+      "max_mentees": 5,
+      "rating": 4.8,
+      "approval_status": "APPROVED",
+      "linkedin_url": "https://linkedin.com/in/marcus-sterling-cloud"
+    },
+    {
+      "id": "mp-3",
+      "user_id": "usr-mentor-3",
+      "organization": "FinCorp Global",
+      "designation": "Lead Data Engineer",
+      "domain": "Data Engineering & Analytics",
+      "expertise_skills": [
+        "SQL",
+        "Python Data Engineering",
+        "Spark",
+        "Airflow",
+        "Cloud Warehousing",
+        "Data Modeling"
+      ],
+      "years_experience": 8,
+      "max_mentees": 3,
+      "rating": 5,
+      "approval_status": "APPROVED",
+      "linkedin_url": "https://linkedin.com/in/priya-sharma-data"
+    },
+    {
+      "id": "mp-4",
+      "user_id": "usr-mentor-4",
+      "organization": "SecureNet International",
+      "designation": "Director of Cybersecurity",
+      "domain": "Cybersecurity & Threat Defense",
+      "expertise_skills": [
+        "Network Security",
+        "Penetration Testing",
+        "Cryptography",
+        "SIEM Tools",
+        "Incident Response"
+      ],
+      "years_experience": 14,
+      "max_mentees": 5,
+      "rating": 4.9,
+      "approval_status": "APPROVED",
+      "linkedin_url": "https://linkedin.com/in/david-chen-cyber"
+    },
+    {
+      "id": "mp-5",
+      "user_id": "usr-mentor-5",
+      "organization": "CloudScale Technologies",
+      "designation": "Senior DevOps / SRE Lead",
+      "domain": "DevOps & Site Reliability",
+      "expertise_skills": [
+        "Docker",
+        "Kubernetes",
+        "Terraform",
+        "CI/CD Pipelines",
+        "Prometheus"
+      ],
+      "years_experience": 6,
+      "max_mentees": 3,
+      "rating": 4.7,
+      "approval_status": "PENDING",
+      "linkedin_url": "https://linkedin.com/in/sophia-patel-devops"
+    }
+  ],
+  "goals": [
+    {
+      "id": "goal-1",
+      "student_id": "usr-student-1",
+      "title": "Complete Transformer & LLM Fine-Tuning Project",
+      "description": "Implement a specialized domain fine-tuning pipeline on Llama-3 using LoRA and evaluate perplexity on legal tech documents.",
+      "category": "TECHNICAL_SKILL",
+      "progress": 75,
+      "status": "IN_PROGRESS",
+      "target_date": "2026-11-30",
+      "milestones": [
+        {
+          "id": "m1",
+          "title": "Data gathering and tokenization preprocessing",
+          "done": true
+        },
+        {
+          "id": "m2",
+          "title": "HuggingFace PEFT and QLoRA training script setup",
+          "done": true
+        },
+        {
+          "id": "m3",
+          "title": "Benchmark model evaluations and ROUGE scoring",
+          "done": true
+        },
+        {
+          "id": "m4",
+          "title": "Deploy FastAPI demo endpoint with GPU acceleration",
+          "done": false
+        }
+      ],
+      "created_at": "2026-02-01T10:00:00.000Z",
+      "updated_at": "2026-10-01T15:00:00.000Z"
+    },
+    {
+      "id": "goal-2",
+      "student_id": "usr-student-1",
+      "title": "Master Advanced Data Structures & Dynamic Programming",
+      "description": "Solve 100 NeetCode/LeetCode questions with emphasis on Graphs, Trie, and DP to prepare for upcoming Summer 2027 internship interviews.",
+      "category": "ACADEMIC",
+      "progress": 60,
+      "status": "IN_PROGRESS",
+      "target_date": "2026-12-15",
+      "milestones": [
+        {
+          "id": "m21",
+          "title": "Complete Arrays, Two-Pointers, and Sliding Window (25 problems)",
+          "done": true
+        },
+        {
+          "id": "m22",
+          "title": "Complete Trees and Graph Traversal BFS/DFS (25 problems)",
+          "done": true
+        },
+        {
+          "id": "m23",
+          "title": "Complete Dynamic Programming 1D and 2D patterns (30 problems)",
+          "done": false
+        },
+        {
+          "id": "m24",
+          "title": "Take 3 timed mock interview assessments with Mentor",
+          "done": false
+        }
+      ],
+      "created_at": "2026-02-10T11:00:00.000Z",
+      "updated_at": "2026-09-28T18:00:00.000Z"
+    },
+    {
+      "id": "goal-3",
+      "student_id": "usr-student-1",
+      "title": "Submit Paper to College AI Symposium",
+      "description": "Author and submit an empirical paper on efficient inference optimization techniques on consumer hardware.",
+      "category": "RESEARCH",
+      "progress": 30,
+      "status": "IN_PROGRESS",
+      "target_date": "2027-01-20",
+      "milestones": [
+        {
+          "id": "m31",
+          "title": "Literature survey of quantization & KV-caching methods",
+          "done": true
+        },
+        {
+          "id": "m32",
+          "title": "Empirical benchmark experiments setup",
+          "done": false
+        },
+        {
+          "id": "m33",
+          "title": "Draft methodology and results sections",
+          "done": false
+        },
+        {
+          "id": "m34",
+          "title": "Mentor review and camera-ready submission",
+          "done": false
+        }
+      ],
+      "created_at": "2026-03-01T09:00:00.000Z",
+      "updated_at": "2026-09-15T12:00:00.000Z"
+    },
+    {
+      "id": "goal-4",
+      "student_id": "usr-student-2",
+      "title": "Build End-to-End Real-Time ETL Pipeline",
+      "description": "Ingest cryptocurrency trade streams using Kafka, transform via PySpark, and store in Snowflake with dbt models.",
+      "category": "PROJECT",
+      "progress": 50,
+      "status": "IN_PROGRESS",
+      "target_date": "2026-11-20",
+      "milestones": [
+        {
+          "id": "m41",
+          "title": "Setup Apache Kafka producer for Binance WebSocket API",
+          "done": true
+        },
+        {
+          "id": "m42",
+          "title": "PySpark structured streaming windowed aggregations",
+          "done": true
+        },
+        {
+          "id": "m43",
+          "title": "dbt transformation layer for analytical mart",
+          "done": false
+        },
+        {
+          "id": "m44",
+          "title": "Build interactive Streamlit monitoring dashboard",
+          "done": false
+        }
+      ],
+      "created_at": "2026-02-15T14:00:00.000Z",
+      "updated_at": "2026-10-05T16:00:00.000Z"
+    },
+    {
+      "id": "goal-1aa5036f",
+      "student_id": "usr-student-1",
+      "title": "Master Kubernetes and Cloud Native Microservices",
+      "description": "",
+      "category": "TECHNICAL_SKILL",
+      "progress": 40,
+      "status": "IN_PROGRESS",
+      "target_date": "2026-12-31",
+      "milestones": [
+        {
+          "id": "m-cld-1",
+          "title": "Design modular multi-tier architecture diagram on cloud canvas",
+          "done": false
+        },
+        {
+          "id": "m-cld-2",
+          "title": "Containerize microservices with multi-stage Dockerfiles",
+          "done": false
+        },
+        {
+          "id": "m-cld-3",
+          "title": "Provision infrastructure using Terraform scripts (IaC)",
+          "done": false
+        },
+        {
+          "id": "m-cld-4",
+          "title": "Setup GitHub Actions CI/CD automated linting and deployment pipeline",
+          "done": false
+        },
+        {
+          "id": "m-cld-5",
+          "title": "Configure Prometheus and Grafana telemetry alerts",
+          "done": false
+        }
+      ],
+      "created_at": "2026-10-14T09:48:44.846Z",
+      "updated_at": "2026-10-14T09:48:44.864Z"
+    },
+    {
+      "id": "goal-a0386a11",
+      "student_id": "usr-student-1",
+      "title": "Master Kubernetes and Cloud Native Microservices",
+      "description": "",
+      "category": "TECHNICAL_SKILL",
+      "progress": 40,
+      "status": "IN_PROGRESS",
+      "target_date": "2026-12-31",
+      "milestones": [
+        {
+          "id": "m-cld-1",
+          "title": "Design modular multi-tier architecture diagram on cloud canvas",
+          "done": false
+        },
+        {
+          "id": "m-cld-2",
+          "title": "Containerize microservices with multi-stage Dockerfiles",
+          "done": false
+        },
+        {
+          "id": "m-cld-3",
+          "title": "Provision infrastructure using Terraform scripts (IaC)",
+          "done": false
+        },
+        {
+          "id": "m-cld-4",
+          "title": "Setup GitHub Actions CI/CD automated linting and deployment pipeline",
+          "done": false
+        },
+        {
+          "id": "m-cld-5",
+          "title": "Configure Prometheus and Grafana telemetry alerts",
+          "done": false
+        }
+      ],
+      "created_at": "2026-10-14T09:59:46.162Z",
+      "updated_at": "2026-10-14T09:59:46.184Z"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "sess-1",
+      "student_id": "usr-student-1",
+      "mentor_id": "usr-mentor-1",
+      "scheduled_time": "2026-10-16T09:46:54.757Z",
+      "duration_minutes": 45,
+      "meeting_link": "https://meet.google.com/sih-ment-conf",
+      "topic": "LLM Fine-Tuning Hyperparameters & GPU Optimization Review",
+      "notes": "Reviewing Alex’s training loss curves, learning rate scheduler selection, and quantization tradeoffs.",
+      "status": "CONFIRMED",
+      "requested_by": "usr-student-1",
+      "created_at": "2026-10-10T10:00:00.000Z"
+    },
+    {
+      "id": "sess-2",
+      "student_id": "usr-student-1",
+      "mentor_id": "usr-mentor-1",
+      "scheduled_time": "2026-10-07T09:46:54.757Z",
+      "duration_minutes": 60,
+      "meeting_link": "https://meet.google.com/sih-ment-past",
+      "topic": "Technical Resume & System Design Fundamentals",
+      "notes": "Critiqued Alex’s resume projects; discussed how to frame open-source contributions.",
+      "status": "COMPLETED",
+      "requested_by": "usr-student-1",
+      "created_at": "2026-10-01T11:00:00.000Z"
+    },
+    {
+      "id": "sess-3",
+      "student_id": "usr-student-2",
+      "mentor_id": "usr-mentor-3",
+      "scheduled_time": "2026-10-18T09:46:54.757Z",
+      "duration_minutes": 45,
+      "meeting_link": "https://meet.google.com/data-pipeline-sync",
+      "topic": "PySpark Windowing Functions & Schema Evolution",
+      "notes": "Deep-dive session into stateful streaming and watermarking.",
+      "status": "CONFIRMED",
+      "requested_by": "usr-student-2",
+      "created_at": "2026-10-11T12:00:00.000Z"
+    },
+    {
+      "id": "sess-eda3d69b",
+      "student_id": "usr-student-1",
+      "mentor_id": "usr-mentor-1",
+      "scheduled_time": "2026-10-17T09:48:44.865Z",
+      "duration_minutes": 45,
+      "meeting_link": "https://meet.google.com/test-mentor-sync",
+      "topic": "Kubernetes Pod Networking and Ingress Controllers",
+      "notes": "Need guidance on setting up ingress-nginx in Minikube",
+      "status": "COMPLETED",
+      "requested_by": "usr-student-1",
+      "created_at": "2026-10-14T09:48:44.872Z",
+      "updated_at": "2026-10-14T09:48:44.912Z"
+    },
+    {
+      "id": "sess-25c72ccc",
+      "student_id": "usr-student-1",
+      "mentor_id": "usr-mentor-1",
+      "scheduled_time": "2026-10-17T09:59:46.188Z",
+      "duration_minutes": 45,
+      "meeting_link": "https://meet.google.com/test-mentor-sync",
+      "topic": "Kubernetes Pod Networking and Ingress Controllers",
+      "notes": "Need guidance on setting up ingress-nginx in Minikube",
+      "status": "COMPLETED",
+      "requested_by": "usr-student-1",
+      "created_at": "2026-10-14T09:59:46.199Z",
+      "updated_at": "2026-10-14T09:59:46.279Z"
+    }
+  ],
+  "feedback": [
+    {
+      "id": "fb-1",
+      "session_id": "sess-2",
+      "student_id": "usr-student-1",
+      "mentor_id": "usr-mentor-1",
+      "rating": 5,
+      "technical_skills_rating": 5,
+      "communication_rating": 4,
+      "qualitative_notes": "Alex showed exceptional initiative in setting up the LoRA scripts. Demonstrates solid grasp of attention mechanisms and gradient checkpointing.",
+      "actionable_next_steps": "1. Refine README documentation with architecture diagrams. 2. Practice explaining tradeoffs between full fine-tuning vs parameter-efficient tuning in mock interviews.",
+      "created_at": "2026-10-07T12:00:00.000Z"
+    },
+    {
+      "id": "fb-9254f412",
+      "session_id": "sess-eda3d69b",
+      "student_id": "usr-student-1",
+      "mentor_id": "usr-mentor-1",
+      "rating": 5,
+      "technical_skills_rating": 5,
+      "communication_rating": 4,
+      "qualitative_notes": "Student showed remarkable clarity on container namespaces and cgroups.",
+      "actionable_next_steps": "Review Kubernetes Service discovery and CoreDNS.",
+      "created_at": "2026-10-14T09:48:44.909Z"
+    },
+    {
+      "id": "fb-6edc85d9",
+      "session_id": "sess-25c72ccc",
+      "student_id": "usr-student-1",
+      "mentor_id": "usr-mentor-1",
+      "rating": 5,
+      "technical_skills_rating": 5,
+      "communication_rating": 4,
+      "qualitative_notes": "Student showed remarkable clarity on container namespaces and cgroups.",
+      "actionable_next_steps": "Review Kubernetes Service discovery and CoreDNS.",
+      "created_at": "2026-10-14T09:59:46.271Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-52443f0a",
+      "user_id": "usr-student-1",
+      "title": "New Mentor Feedback Received ⭐",
+      "message": "Dr. Elena Vance submitted official feedback and next-step recommendations for your progress.",
+      "type": "FEEDBACK",
+      "is_read": false,
+      "created_at": "2026-10-14T09:59:46.281Z"
+    },
+    {
+      "id": "notif-eea8185c",
+      "user_id": "usr-student-1",
+      "title": "Mentoring Session CONFIRMED",
+      "message": "Dr. Elena Vance updated your session \"Kubernetes Pod Networking and Ingress Controllers\" status to CONFIRMED.",
+      "type": "SESSION",
+      "is_read": false,
+      "created_at": "2026-10-14T09:59:46.253Z"
+    },
+    {
+      "id": "notif-78f8e699",
+      "user_id": "usr-mentor-1",
+      "title": "New Mentoring Session Request",
+      "message": "Alex Johnson requested a 45-minute session on: \"Kubernetes Pod Networking and Ingress Controllers\".",
+      "type": "SESSION",
+      "is_read": false,
+      "created_at": "2026-10-14T09:59:46.204Z"
+    },
+    {
+      "id": "notif-76527be8",
+      "user_id": "usr-mentor-1",
+      "title": "New Student Goal Created",
+      "message": "Alex Johnson created a new milestone goal: \"Master Kubernetes and Cloud Native Microservices\".",
+      "type": "GOAL",
+      "is_read": false,
+      "created_at": "2026-10-14T09:59:46.168Z"
+    },
+    {
+      "id": "notif-fdeefa3f",
+      "user_id": "usr-student-1",
+      "title": "New Mentor Feedback Received ⭐",
+      "message": "Dr. Elena Vance submitted official feedback and next-step recommendations for your progress.",
+      "type": "FEEDBACK",
+      "is_read": false,
+      "created_at": "2026-10-14T09:48:44.912Z"
+    },
+    {
+      "id": "notif-1c6fae5f",
+      "user_id": "usr-student-1",
+      "title": "Mentoring Session CONFIRMED",
+      "message": "Dr. Elena Vance updated your session \"Kubernetes Pod Networking and Ingress Controllers\" status to CONFIRMED.",
+      "type": "SESSION",
+      "is_read": false,
+      "created_at": "2026-10-14T09:48:44.903Z"
+    },
+    {
+      "id": "notif-ed681ac5",
+      "user_id": "usr-mentor-1",
+      "title": "New Mentoring Session Request",
+      "message": "Alex Johnson requested a 45-minute session on: \"Kubernetes Pod Networking and Ingress Controllers\".",
+      "type": "SESSION",
+      "is_read": false,
+      "created_at": "2026-10-14T09:48:44.874Z"
+    },
+    {
+      "id": "notif-9cf638dd",
+      "user_id": "usr-mentor-1",
+      "title": "New Student Goal Created",
+      "message": "Alex Johnson created a new milestone goal: \"Master Kubernetes and Cloud Native Microservices\".",
+      "type": "GOAL",
+      "is_read": false,
+      "created_at": "2026-10-14T09:48:44.854Z"
+    },
+    {
+      "id": "notif-1",
+      "user_id": "usr-student-1",
+      "title": "Mentoring Session Confirmed",
+      "message": "Dr. Elena Vance confirmed your session for \"LLM Fine-Tuning Hyperparameters\" in 2 days.",
+      "type": "SESSION",
+      "is_read": false,
+      "created_at": "2026-10-14T06:46:54.757Z"
+    },
+    {
+      "id": "notif-2",
+      "user_id": "usr-student-1",
+      "title": "Mentor Feedback Received",
+      "message": "Dr. Elena Vance submitted formal feedback and next-step recommendations for your past session.",
+      "type": "FEEDBACK",
+      "is_read": true,
+      "created_at": "2026-10-07T13:00:00.000Z"
+    },
+    {
+      "id": "notif-3",
+      "user_id": "usr-mentor-1",
+      "title": "Goal Progress Milestone Completed",
+      "message": "Alex Johnson marked \"Benchmark model evaluations and ROUGE scoring\" as completed.",
+      "type": "GOAL",
+      "is_read": false,
+      "created_at": "2026-10-14T01:46:54.757Z"
+    },
+    {
+      "id": "notif-4",
+      "user_id": "usr-admin-1",
+      "title": "Pending Mentor Verification",
+      "message": "Sophia Patel applied for Mentor status in DevOps & Site Reliability. Verification required.",
+      "type": "SYSTEM",
+      "is_read": false,
+      "created_at": "2026-10-12T08:00:00.000Z"
+    }
+  ],
+  "contactInquiries": [
+    {
+      "id": "inq-f4bd7b7c",
+      "reference_code": "INQ-856136",
+      "name": "Dr. Jane Holloway",
+      "email": "jholloway@university.edu",
+      "role": "College Dean",
+      "subject": "Institutional Partnership Inquiry",
+      "message": "We want to onboard 500 students to Smart AI Mentor system.",
+      "status": "NEW",
+      "created_at": "2026-10-14T09:59:46.364Z"
+    },
+    {
+      "id": "inq-1056fb2f",
+      "reference_code": "INQ-594628",
+      "name": "Dr. Jane Holloway",
+      "email": "jholloway@university.edu",
+      "role": "College Dean",
+      "subject": "Institutional Partnership Inquiry",
+      "message": "We want to onboard 500 students to Smart AI Mentor system.",
+      "status": "NEW",
+      "created_at": "2026-10-14T09:48:44.954Z"
+    },
+    {
+      "id": "inq-1",
+      "name": "Professor Robert Martinez",
+      "email": "rmartinez@stateuniv.edu",
+      "role": "College Department Chair",
+      "subject": "Departmental Mentorship Onboarding for 300 Computer Science Students",
+      "message": "We are very interested in adopting Smart AI Mentor platform across our undergraduate engineering cohort this semester. Could we schedule a demo call with your team?",
+      "status": "IN_REVIEW",
+      "created_at": "2026-10-12T11:00:00.000Z"
+    }
+  ]
+}

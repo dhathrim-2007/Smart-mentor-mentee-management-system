@@ -1,0 +1,2727 @@
+[
+  {
+    "id": "CASE-1059",
+    "timestamp": "2026-09-05T05:51:37.016Z",
+    "timeFormatted": "11:21 AM",
+    "victimNameMasked": "Test User",
+    "phoneMasked": "******9053",
+    "channel": "Web",
+    "language": "Telugu",
+    "state": "National Jurisdiction",
+    "district": "Unspecified District",
+    "svi": 88,
+    "riskLevel": "CRITICAL",
+    "confidence": 0.92,
+    "keyIndicators": [
+      "Assessment Logged"
+    ],
+    "narrative": "Test emergency narrative",
+    "narrativeSummary": "Victim narrative submitted via portal for automated stress analysis.",
+    "status": "IN_REVIEW",
+    "officerNotes": "Service [Witness Protection Review] assigned for prioritized execution.",
+    "assignedOfficer": "Inspector K. Rao",
+    "assignedService": "Witness Protection Review",
+    "humanReviewRequired": true,
+    "immediateSafetyAlert": false,
+    "acousticMetrics": {
+      "pauseRate": "N/A (Web text submission)",
+      "pitchVariance": "N/A",
+      "speechRateWpm": "N/A",
+      "voiceStressLevel": "NORMAL"
+    },
+    "recommendations": [
+      "Standard triage review"
+    ],
+    "explainability": {},
+    "auditLog": [
+      {
+        "timestamp": "11:21 AM",
+        "actor": "NHAA Portal Ingestion",
+        "action": "Case created with SVI 88 (CRITICAL)"
+      },
+      {
+        "timestamp": "11:21 AM",
+        "actor": "Nodal Officer",
+        "action": "Status updated from ACTIVE to IN_REVIEW"
+      },
+      {
+        "timestamp": "11:21 AM",
+        "actor": "Nodal Officer",
+        "action": "Assigned officer set to: Inspector K. Rao"
+      },
+      {
+        "timestamp": "11:21 AM",
+        "actor": "Nodal Officer",
+        "action": "Support service dispatched: Witness Protection Review"
+      },
+      {
+        "timestamp": "11:21 AM",
+        "actor": "Nodal Officer",
+        "action": "Officer notes updated: \"Service [Witness Protection Review] assigned for prioritized...\""
+      }
+    ],
+    "benchmarkId": null,
+    "benchmarkTitle": null,
+    "stage": "Rehabilitation",
+    "priority": "Priority 1 — Immediate human review",
+    "priorityReason": "Critical distress score, imminent safety risk, or rapid upward escalation detected.",
+    "prediction": "POTENTIAL ESCALATION",
+    "predictionReason": "Distress escalated steeply (+41 pts) across consecutive check-ins with acute physical threats and insomnia. Immediate human review required.",
+    "checkinHistory": [
+      {
+        "id": "CHK-01",
+        "index": 1,
+        "label": "Check-in 1",
+        "date": "2026-08-08",
+        "daysAgo": "4 weeks ago",
+        "svi": 50,
+        "mood": 5,
+        "safety": 5,
+        "sleep": 5,
+        "isolation": 5,
+        "functioning": 5,
+        "event": "FIR 154 CrPC filed",
+        "missed": false
+      },
+      {
+        "id": "CHK-02",
+        "index": 2,
+        "label": "Check-in 2",
+        "date": "2026-08-15",
+        "daysAgo": "3 weeks ago",
+        "svi": 64,
+        "mood": 7,
+        "safety": 7,
+        "sleep": 7,
+        "isolation": 6,
+        "functioning": 6,
+        "event": "Section 164 Statement",
+        "missed": false
+      },
+      {
+        "id": "CHK-03",
+        "index": 3,
+        "label": "Check-in 3",
+        "date": "2026-08-22",
+        "daysAgo": "2 weeks ago",
+        "svi": 76,
+        "mood": 8,
+        "safety": 8,
+        "sleep": 8,
+        "isolation": 8,
+        "functioning": 7,
+        "event": "Trial Summons Issued",
+        "missed": false
+      },
+      {
+        "id": "CHK-04",
+        "index": 4,
+        "label": "Check-in 4",
+        "date": "2026-08-29",
+        "daysAgo": "1 week ago",
+        "svi": 85,
+        "mood": 9,
+        "safety": 9,
+        "sleep": 9,
+        "isolation": 9,
+        "functioning": 8,
+        "event": "Direct Weapons Threat at Home",
+        "missed": false
+      },
+      {
+        "id": "CHK-05",
+        "index": 5,
+        "label": "Current Check-in",
+        "date": "2026-09-05",
+        "daysAgo": "Today",
+        "svi": 91,
+        "mood": 10,
+        "safety": 10,
+        "sleep": 10,
+        "isolation": 9,
+        "functioning": 9,
+        "event": "Complainant in hiding; SOS triggered",
+        "missed": false
+      }
+    ],
+    "alerts": [
+      {
+        "id": "ALT-CASE-1059-01",
+        "caseId": "CASE-1059",
+        "riskLevel": "CRITICAL",
+        "severity": "CRITICAL",
+        "trigger": "Lethal Intimidation & Severe Distress Spike",
+        "time": "11:21 AM",
+        "timestamp": "2026-09-05T05:51:37.016Z",
+        "explanation": "Armed threats to force FIR withdrawal reported. Extreme panic and displacement fear detected.",
+        "recommendedAction": "Emergency police escort, SHO notification, and witness protection committee appraisal.",
+        "assignedProfessional": "Inspector K. Rao",
+        "status": "NEW",
+        "whyGenerated": "Distress score 91/100 and direct weapon threat markers identified in narrative & acoustic tremors."
+      }
+    ],
+    "interventions": [
+      {
+        "id": "INT-CASE-1059-01",
+        "type": "Witness Protection Review",
+        "officer": "Inspector K. Rao",
+        "status": "IN_PROGRESS",
+        "date": "2026-09-05",
+        "notes": "Service [Witness Protection Review] assigned for prioritized execution."
+      }
+    ],
+    "nextCheckinDue": "In 6 days",
+    "missedCheckinsCount": 0
+  },
+  {
+    "id": "CASE-1042",
+    "timestamp": "2026-09-05T09:42:15Z",
+    "timeFormatted": "10:42 AM",
+    "victimNameMasked": "R*** S*****",
+    "phoneMasked": "******8492",
+    "channel": "Voice",
+    "language": "Telugu",
+    "state": "Telangana",
+    "district": "Warangal",
+    "svi": 91,
+    "riskLevel": "CRITICAL",
+    "confidence": 0.96,
+    "keyIndicators": [
+      "Immediate Danger",
+      "Coercive Threat",
+      "Extreme Fear",
+      "Witness Risk"
+    ],
+    "narrative": "They came to my house yesterday night with weapons and threatened to kill me if I do not withdraw the FIR. I have locked myself in a relative’s room and I am terrified to step outside.",
+    "narrativeSummary": "Direct physical threat with weapons to force withdrawal of registered grievance. Complainant in immediate hiding.",
+    "status": "ACTIVE",
+    "officerNotes": "Escalated to Warangal Rural SHO and Special PoA Cell. Immediate patrol dispatched.",
+    "assignedOfficer": "Officer K. Venkatesh (MoSJE Nodal)",
+    "assignedService": "Emergency Police Intervention & Witness Protection",
+    "humanReviewRequired": true,
+    "immediateSafetyAlert": true,
+    "acousticMetrics": {
+      "pauseRate": "7 pauses (2.4s avg)",
+      "pitchVariance": "84 Hz variance",
+      "speechRateWpm": "85 WPM",
+      "voiceStressLevel": "ELEVATED"
+    },
+    "recommendations": [
+      "Immediate physical protection & police escort",
+      "Witness protection committee review under PoA rules",
+      "Emergency trauma counselling outreach",
+      "Safe temporary accommodation assignment"
+    ],
+    "auditLog": [
+      {
+        "timestamp": "10:42 AM",
+        "actor": "NHAA System",
+        "action": "Inbound call recorded via IVRS Gateway (14566)"
+      },
+      {
+        "timestamp": "10:42 AM",
+        "actor": "AI Risk Engine",
+        "action": "NLP & Acoustic evaluation completed. SVI computed: 91 (CRITICAL)"
+      },
+      {
+        "timestamp": "10:43 AM",
+        "actor": "Alert Engine",
+        "action": "Critical Alert broadcasted to District Nodal Officer"
+      },
+      {
+        "timestamp": "10:45 AM",
+        "actor": "Officer K. Venkatesh",
+        "action": "Case assigned for emergency intervention"
+      },
+      {
+        "timestamp": "10:48 AM",
+        "actor": "Officer K. Venkatesh",
+        "action": "Station House Officer notified for urgent patrol"
+      }
+    ],
+    "benchmarkId": "CASE_D",
+    "benchmarkTitle": "Benchmark Case D: Critical / Escalation Risk",
+    "stage": "Investigation",
+    "priority": "Priority 1 — Immediate human review",
+    "priorityReason": "Critical distress score, imminent safety risk, or rapid upward escalation detected.",
+    "prediction": "POTENTIAL ESCALATION",
+    "predictionReason": "Distress escalated steeply (+41 pts) across consecutive check-ins with acute physical threats and insomnia. Immediate human review required.",
+    "checkinHistory": [
+      {
+        "id": "CHK-01",
+        "index": 1,
+        "label": "Check-in 1",
+        "date": "2026-08-08",
+        "daysAgo": "4 weeks ago",
+        "svi": 50,
+        "mood": 5,
+        "safety": 5,
+        "sleep": 5,
+        "isolation": 5,
+        "functioning": 5,
+        "event": "FIR 154 CrPC filed",
+        "missed": false
+      },
+      {
+        "id": "CHK-02",
+        "index": 2,
+        "label": "Check-in 2",
+        "date": "2026-08-15",
+        "daysAgo": "3 weeks ago",
+        "svi": 64,
+        "mood": 7,
+        "safety": 7,
+        "sleep": 7,
+        "isolation": 6,
+        "functioning": 6,
+        "event": "Section 164 Statement",
+        "missed": false
+      },
+      {
+        "id": "CHK-03",
+        "index": 3,
+        "label": "Check-in 3",
+        "date": "2026-08-22",
+        "daysAgo": "2 weeks ago",
+        "svi": 76,
+        "mood": 8,
+        "safety": 8,
+        "sleep": 8,
+        "isolation": 8,
+        "functioning": 7,
+        "event": "Trial Summons Issued",
+        "missed": false
+      },
+      {
+        "id": "CHK-04",
+        "index": 4,
+        "label": "Check-in 4",
+        "date": "2026-08-29",
+        "daysAgo": "1 week ago",
+        "svi": 85,
+        "mood": 9,
+        "safety": 9,
+        "sleep": 9,
+        "isolation": 9,
+        "functioning": 8,
+        "event": "Direct Weapons Threat at Home",
+        "missed": false
+      },
+      {
+        "id": "CHK-05",
+        "index": 5,
+        "label": "Current Check-in",
+        "date": "2026-09-05",
+        "daysAgo": "Today",
+        "svi": 91,
+        "mood": 10,
+        "safety": 10,
+        "sleep": 10,
+        "isolation": 9,
+        "functioning": 9,
+        "event": "Complainant in hiding; SOS triggered",
+        "missed": false
+      }
+    ],
+    "alerts": [
+      {
+        "id": "ALT-CASE-1042-01",
+        "caseId": "CASE-1042",
+        "riskLevel": "CRITICAL",
+        "severity": "CRITICAL",
+        "trigger": "Lethal Intimidation & Severe Distress Spike",
+        "time": "10:42 AM",
+        "timestamp": "2026-09-05T09:42:15Z",
+        "explanation": "Armed threats to force FIR withdrawal reported. Extreme panic and displacement fear detected.",
+        "recommendedAction": "Emergency police escort, SHO notification, and witness protection committee appraisal.",
+        "assignedProfessional": "Officer K. Venkatesh (MoSJE Nodal)",
+        "status": "NEW",
+        "whyGenerated": "Distress score 91/100 and direct weapon threat markers identified in narrative & acoustic tremors."
+      }
+    ],
+    "interventions": [
+      {
+        "id": "INT-CASE-1042-01",
+        "type": "Emergency Police Intervention & Witness Protection",
+        "officer": "Officer K. Venkatesh (MoSJE Nodal)",
+        "status": "IN_PROGRESS",
+        "date": "2026-09-05",
+        "notes": "Escalated to Warangal Rural SHO and Special PoA Cell. Immediate patrol dispatched."
+      }
+    ],
+    "nextCheckinDue": "In 6 days",
+    "missedCheckinsCount": 0
+  },
+  {
+    "id": "CASE-1041",
+    "timestamp": "2026-09-05T09:15:30Z",
+    "timeFormatted": "09:15 AM",
+    "victimNameMasked": "M*** K****",
+    "phoneMasked": "******3120",
+    "channel": "Web",
+    "language": "Hindi",
+    "state": "Uttar Pradesh",
+    "district": "Varanasi",
+    "svi": 72,
+    "riskLevel": "HIGH",
+    "confidence": 0.94,
+    "keyIndicators": [
+      "Threat Perception",
+      "High Fear",
+      "Safe Shelter Needed"
+    ],
+    "narrative": "Main gaon lautne se bohot darta hoon. Jin logon ke khilaf maine complain darj karwayi thi unhone mere bhai ko dhamki di hai. Humare parivaar ko suraksha chahiye.",
+    "narrativeSummary": "Family members threatened post-complaint filing. High fear of reprisal at village residence.",
+    "status": "IN_REVIEW",
+    "officerNotes": "Legal aid advocate allocated. Protection assessment initiated with District Magistrate office.",
+    "assignedOfficer": "Adv. S. Sharma (Legal Aid)",
+    "assignedService": "Priority Legal Aid & Safety Review",
+    "humanReviewRequired": true,
+    "immediateSafetyAlert": false,
+    "acousticMetrics": {
+      "pauseRate": "4 pauses (1.6s avg)",
+      "pitchVariance": "58 Hz variance",
+      "speechRateWpm": "108 WPM",
+      "voiceStressLevel": "ELEVATED"
+    },
+    "recommendations": [
+      "Priority psychological counselling within 24h",
+      "Legal aid counsel assignment for court protection petition",
+      "Local SHO notification of intimidation"
+    ],
+    "auditLog": [
+      {
+        "timestamp": "09:15 AM",
+        "actor": "Citizen Portal",
+        "action": "Assessment submitted via Web Portal"
+      },
+      {
+        "timestamp": "09:16 AM",
+        "actor": "AI Risk Engine",
+        "action": "SVI computed: 72 (HIGH). Legal retaliation indicators flagged."
+      },
+      {
+        "timestamp": "09:20 AM",
+        "actor": "Triage Officer",
+        "action": "Assigned to Legal Aid Panel"
+      }
+    ],
+    "benchmarkId": "CASE_C",
+    "benchmarkTitle": "Benchmark Case C: High / Worsening Risk",
+    "stage": "Trial",
+    "priority": "Priority 2 — Follow-up soon",
+    "priorityReason": "Moderate-to-elevated distress trend or missed check-in requiring counsellor touchpoint.",
+    "prediction": "WORSENING",
+    "predictionReason": "Distress has increased consistently following court dates with heightened fear indicators (+24 pts over 5 check-ins).",
+    "checkinHistory": [
+      {
+        "id": "CHK-01",
+        "index": 1,
+        "label": "Check-in 1",
+        "date": "2026-08-08",
+        "daysAgo": "4 weeks ago",
+        "svi": 48,
+        "mood": 5,
+        "safety": 4,
+        "sleep": 5,
+        "isolation": 5,
+        "functioning": 4,
+        "event": "Investigation Commenced",
+        "missed": false
+      },
+      {
+        "id": "CHK-02",
+        "index": 2,
+        "label": "Check-in 2",
+        "date": "2026-08-15",
+        "daysAgo": "3 weeks ago",
+        "svi": 55,
+        "mood": 6,
+        "safety": 6,
+        "sleep": 6,
+        "isolation": 6,
+        "functioning": 5,
+        "event": "Charge-sheet Filed",
+        "missed": false
+      },
+      {
+        "id": "CHK-03",
+        "index": 3,
+        "label": "Check-in 3",
+        "date": "2026-08-22",
+        "daysAgo": "2 weeks ago",
+        "svi": 62,
+        "mood": 7,
+        "safety": 7,
+        "sleep": 7,
+        "isolation": 7,
+        "functioning": 6,
+        "event": "Bail Hearing Date",
+        "missed": false
+      },
+      {
+        "id": "CHK-04",
+        "index": 4,
+        "label": "Check-in 4",
+        "date": "2026-08-29",
+        "daysAgo": "1 week ago",
+        "svi": 68,
+        "mood": 8,
+        "safety": 8,
+        "sleep": 8,
+        "isolation": 7,
+        "functioning": 7,
+        "event": "Threats at Village Residence",
+        "missed": false
+      },
+      {
+        "id": "CHK-05",
+        "index": 5,
+        "label": "Current Check-in",
+        "date": "2026-09-05",
+        "daysAgo": "Today",
+        "svi": 72,
+        "mood": 8,
+        "safety": 9,
+        "sleep": 8,
+        "isolation": 8,
+        "functioning": 7,
+        "event": "Safe shelter requested",
+        "missed": false
+      }
+    ],
+    "alerts": [
+      {
+        "id": "ALT-CASE-1041-01",
+        "caseId": "CASE-1041",
+        "riskLevel": "ELEVATED",
+        "severity": "HIGH",
+        "trigger": "Retaliatory Intimidation Ahead of Court Hearing",
+        "time": "09:15 AM",
+        "timestamp": "2026-09-05T09:15:30Z",
+        "explanation": "Complainant reports stalking and threats to family members after charge-sheet filing.",
+        "recommendedAction": "Assign legal aid advocate for protection petition & schedule trauma counsellor.",
+        "assignedProfessional": "Adv. S. Sharma (Legal Aid)",
+        "status": "IN_REVIEW",
+        "whyGenerated": "Threat perception score exceeded 75 with fear of returning home."
+      }
+    ],
+    "interventions": [
+      {
+        "id": "INT-CASE-1041-01",
+        "type": "Priority Legal Aid & Safety Review",
+        "officer": "Adv. S. Sharma (Legal Aid)",
+        "status": "IN_PROGRESS",
+        "date": "2026-09-05",
+        "notes": "Legal aid advocate allocated. Protection assessment initiated with District Magistrate office."
+      }
+    ],
+    "nextCheckinDue": "In 6 days",
+    "missedCheckinsCount": 0
+  },
+  {
+    "id": "CASE-1040",
+    "timestamp": "2026-09-05T08:50:00Z",
+    "timeFormatted": "08:50 AM",
+    "victimNameMasked": "P*** D***",
+    "phoneMasked": "******9941",
+    "channel": "Voice",
+    "language": "Marathi",
+    "state": "Maharashtra",
+    "district": "Nagpur",
+    "svi": 52,
+    "riskLevel": "ELEVATED",
+    "confidence": 0.91,
+    "keyIndicators": [
+      "Emotional Distress",
+      "Insomnia",
+      "Procedural Anxiety"
+    ],
+    "narrative": "Majhya takraricha pudhe kay zale he mahiti nahi. Mala ratri zop yet nahi ani khup kalji vatat ahe. Mala margadarshan hawe ahe.",
+    "narrativeSummary": "Complainant expressing severe anxiety and sleeplessness regarding status of grievance.",
+    "status": "ACTIVE",
+    "officerNotes": "Scheduled tele-counselling for 3:00 PM today.",
+    "assignedOfficer": "Dr. Anjali Deshmukh (Counsellor)",
+    "assignedService": "Counselling & Case Status Briefing",
+    "humanReviewRequired": true,
+    "immediateSafetyAlert": false,
+    "acousticMetrics": {
+      "pauseRate": "3 pauses (1.2s avg)",
+      "pitchVariance": "34 Hz variance",
+      "speechRateWpm": "115 WPM",
+      "voiceStressLevel": "MODERATE"
+    },
+    "recommendations": [
+      "Telephonic supportive counselling",
+      "Official case progress briefing by NHAA case manager",
+      "Psycho-social coping literature dispatch"
+    ],
+    "auditLog": [
+      {
+        "timestamp": "09:09 PM",
+        "actor": "Citizen Check-in",
+        "action": "Periodic check-in #6 submitted. SVI: 52 (ELEVATED), Prediction: WORSENING"
+      },
+      {
+        "timestamp": "08:50 AM",
+        "actor": "IVRS Ingestion",
+        "action": "Voice recording received and transcribed"
+      },
+      {
+        "timestamp": "08:51 AM",
+        "actor": "AI Risk Engine",
+        "action": "SVI computed: 45 (MODERATE)"
+      },
+      {
+        "timestamp": "08:58 AM",
+        "actor": "Counsellor Lead",
+        "action": "Counsellor Dr. Deshmukh assigned"
+      }
+    ],
+    "benchmarkId": "CASE_B",
+    "benchmarkTitle": "Benchmark Case B: Moderate / Increasing Risk",
+    "stage": "Investigation",
+    "priority": "Priority 2 — Follow-up soon",
+    "priorityReason": "Elevated distress or worsening trend requires proactive counsellor outreach.",
+    "prediction": "WORSENING",
+    "predictionReason": "Distress has increased (+7 pts) in latest check-in.",
+    "checkinHistory": [
+      {
+        "id": "CHK-01",
+        "index": 1,
+        "label": "Check-in 1",
+        "date": "2026-08-08",
+        "daysAgo": "4 weeks ago",
+        "svi": 32,
+        "mood": 4,
+        "safety": 3,
+        "sleep": 4,
+        "isolation": 3,
+        "functioning": 3,
+        "event": "FIR Registered",
+        "missed": false
+      },
+      {
+        "id": "CHK-02",
+        "index": 2,
+        "label": "Check-in 2",
+        "date": "2026-08-15",
+        "daysAgo": "3 weeks ago",
+        "svi": 36,
+        "mood": 4,
+        "safety": 4,
+        "sleep": 5,
+        "isolation": 4,
+        "functioning": 4,
+        "event": null,
+        "missed": false
+      },
+      {
+        "id": "CHK-03",
+        "index": 3,
+        "label": "Check-in 3",
+        "date": "2026-08-22",
+        "daysAgo": "2 weeks ago",
+        "svi": 40,
+        "mood": 5,
+        "safety": 4,
+        "sleep": 6,
+        "isolation": 5,
+        "functioning": 4,
+        "event": "Notice Issued to Accused",
+        "missed": false
+      },
+      {
+        "id": "CHK-04",
+        "index": 4,
+        "label": "Check-in 4",
+        "date": "2026-08-29",
+        "daysAgo": "1 week ago",
+        "svi": 44,
+        "mood": 5,
+        "safety": 5,
+        "sleep": 7,
+        "isolation": 5,
+        "functioning": 5,
+        "event": null,
+        "missed": true,
+        "missedReason": "Missed scheduled check-in"
+      },
+      {
+        "id": "CHK-05",
+        "index": 5,
+        "label": "Current Check-in",
+        "date": "2026-09-05",
+        "daysAgo": "Today",
+        "svi": 45,
+        "mood": 6,
+        "safety": 5,
+        "sleep": 8,
+        "isolation": 6,
+        "functioning": 5,
+        "event": "Sleep anxiety reported",
+        "missed": false
+      },
+      {
+        "id": "CHK-06",
+        "index": 6,
+        "label": "Check-in 6",
+        "date": "2026-09-05",
+        "daysAgo": "Just now",
+        "svi": 52,
+        "mood": 5,
+        "safety": 6,
+        "sleep": 7,
+        "isolation": 3,
+        "functioning": 3,
+        "event": "Periodic well-being check-in submitted",
+        "missed": false,
+        "notes": "",
+        "acousticMetrics": {
+          "score": 20,
+          "pauseRate": "3 pauses (1.4s avg)",
+          "pitchVariance": "42 Hz variance",
+          "speechRateWpm": "110 WPM",
+          "voiceStressLevel": "NORMAL"
+        }
+      }
+    ],
+    "alerts": [
+      {
+        "id": "ALT-CASE-1040-01",
+        "caseId": "CASE-1040",
+        "riskLevel": "MODERATE",
+        "severity": "MEDIUM",
+        "trigger": "Disengagement & Sleep Disruption",
+        "time": "08:50 AM",
+        "timestamp": "2026-09-05T08:50:00Z",
+        "explanation": "Missed scheduled check-in coupled with rising sleep anxiety markers.",
+        "recommendedAction": "Supportive tele-counselling check-in by designated case manager.",
+        "assignedProfessional": "Dr. Anjali Deshmukh (Counsellor)",
+        "status": "ACKNOWLEDGED",
+        "whyGenerated": "Unannounced gap in monitoring plus upward velocity in reported insomnia."
+      }
+    ],
+    "interventions": [
+      {
+        "id": "INT-CASE-1040-01",
+        "type": "Counselling & Case Status Briefing",
+        "officer": "Dr. Anjali Deshmukh (Counsellor)",
+        "status": "IN_PROGRESS",
+        "date": "2026-09-05",
+        "notes": "Scheduled tele-counselling for 3:00 PM today."
+      }
+    ],
+    "nextCheckinDue": "In 6 days",
+    "missedCheckinsCount": 1
+  },
+  {
+    "id": "CASE-1039",
+    "timestamp": "2026-09-05T08:12:44Z",
+    "timeFormatted": "08:12 AM",
+    "victimNameMasked": "A*** B*****",
+    "phoneMasked": "******7712",
+    "channel": "Web",
+    "language": "English",
+    "state": "Delhi",
+    "district": "South Delhi",
+    "svi": 18,
+    "riskLevel": "LOW",
+    "confidence": 0.95,
+    "keyIndicators": [
+      "Procedural Query",
+      "Legal Rights Info"
+    ],
+    "narrative": "I would like to inquire about the standard timeline for charge-sheet submission under the SC/ST Prevention of Atrocities Act and eligibility for legal aid representation.",
+    "narrativeSummary": "Standard procedural query regarding PoA Act timelines and representation rights.",
+    "status": "RESOLVED",
+    "officerNotes": "Citizen provided with NHAA legal handbook and case tracking portal credentials.",
+    "assignedOfficer": "Desk Officer R. Nair",
+    "assignedService": "Information Resource Provision",
+    "humanReviewRequired": false,
+    "immediateSafetyAlert": false,
+    "acousticMetrics": {
+      "pauseRate": "1 pause (0.7s avg)",
+      "pitchVariance": "18 Hz variance",
+      "speechRateWpm": "135 WPM",
+      "voiceStressLevel": "NORMAL"
+    },
+    "recommendations": [
+      "Provide PoA statutory handbook",
+      "Standard digital tracking link"
+    ],
+    "auditLog": [
+      {
+        "timestamp": "08:12 AM",
+        "actor": "Web Portal",
+        "action": "Query logged"
+      },
+      {
+        "timestamp": "08:12 AM",
+        "actor": "AI Risk Engine",
+        "action": "SVI computed: 18 (LOW)"
+      },
+      {
+        "timestamp": "08:15 AM",
+        "actor": "Automated Bot",
+        "action": "Standard statutory details dispatched"
+      }
+    ],
+    "benchmarkId": "CASE_A",
+    "benchmarkTitle": "Benchmark Case A: Stable / Low Risk",
+    "stage": "Rehabilitation",
+    "priority": "Priority 3 — Routine monitoring",
+    "priorityReason": "Stable distress parameters, no pending escalation alerts.",
+    "prediction": "STABLE",
+    "predictionReason": "Distress has remained stable and low across all 5 check-ins. No active threats or trauma escalation detected.",
+    "checkinHistory": [
+      {
+        "id": "CHK-01",
+        "index": 1,
+        "label": "Check-in 1",
+        "date": "2026-08-08",
+        "daysAgo": "4 weeks ago",
+        "svi": 22,
+        "mood": 3,
+        "safety": 2,
+        "sleep": 3,
+        "isolation": 2,
+        "functioning": 2,
+        "event": "Complaint Registered",
+        "missed": false
+      },
+      {
+        "id": "CHK-02",
+        "index": 2,
+        "label": "Check-in 2",
+        "date": "2026-08-15",
+        "daysAgo": "3 weeks ago",
+        "svi": 20,
+        "mood": 2,
+        "safety": 2,
+        "sleep": 2,
+        "isolation": 2,
+        "functioning": 2,
+        "event": null,
+        "missed": false
+      },
+      {
+        "id": "CHK-03",
+        "index": 3,
+        "label": "Check-in 3",
+        "date": "2026-08-22",
+        "daysAgo": "2 weeks ago",
+        "svi": 24,
+        "mood": 3,
+        "safety": 3,
+        "sleep": 3,
+        "isolation": 3,
+        "functioning": 2,
+        "event": "Counsel Appointed",
+        "missed": false
+      },
+      {
+        "id": "CHK-04",
+        "index": 4,
+        "label": "Check-in 4",
+        "date": "2026-08-29",
+        "daysAgo": "1 week ago",
+        "svi": 19,
+        "mood": 2,
+        "safety": 2,
+        "sleep": 2,
+        "isolation": 2,
+        "functioning": 1,
+        "event": null,
+        "missed": false
+      },
+      {
+        "id": "CHK-05",
+        "index": 5,
+        "label": "Current Check-in",
+        "date": "2026-09-05",
+        "daysAgo": "Today",
+        "svi": 18,
+        "mood": 2,
+        "safety": 1,
+        "sleep": 2,
+        "isolation": 2,
+        "functioning": 1,
+        "event": "Procedural handbook shared",
+        "missed": false
+      }
+    ],
+    "alerts": [],
+    "interventions": [
+      {
+        "id": "INT-CASE-1039-01",
+        "type": "Information Resource Provision",
+        "officer": "Desk Officer R. Nair",
+        "status": "COMPLETED",
+        "date": "2026-09-05",
+        "notes": "Citizen provided with NHAA legal handbook and case tracking portal credentials."
+      }
+    ],
+    "nextCheckinDue": "In 6 days",
+    "missedCheckinsCount": 0
+  },
+  {
+    "id": "CASE-1038",
+    "timestamp": "2026-09-04T22:30:10Z",
+    "timeFormatted": "10:30 PM",
+    "victimNameMasked": "S*** M****",
+    "phoneMasked": "******5521",
+    "channel": "IVRS",
+    "language": "Tamil",
+    "state": "Tamil Nadu",
+    "district": "Madurai",
+    "svi": 88,
+    "riskLevel": "CRITICAL",
+    "confidence": 0.96,
+    "keyIndicators": [
+      "Physical Assault Threat",
+      "Ostracization",
+      "Extreme Helplessness"
+    ],
+    "narrative": "Ooril irundhu engalai vilakki vaithullargal. Thanni kooda edukka vidavillai. Innaiku engal veetai koluthuvadhaga bayamuruthugirargal. Kaapattrungal.",
+    "narrativeSummary": "Social boycott, denial of drinking water, and active arson threat against complainant residence.",
+    "status": "ACTIVE",
+    "officerNotes": "District Collectorate and SP Madurai alerted. RDO deputed to spot.",
+    "assignedOfficer": "Officer M. Selvam (Nodal)",
+    "assignedService": "Emergency Police Intervention & Community Protection",
+    "humanReviewRequired": true,
+    "immediateSafetyAlert": true,
+    "acousticMetrics": {
+      "pauseRate": "6 pauses (2.1s avg)",
+      "pitchVariance": "78 Hz variance",
+      "speechRateWpm": "88 WPM",
+      "voiceStressLevel": "ELEVATED"
+    },
+    "recommendations": [
+      "Immediate district administration & police intervention",
+      "Section 144 / preventive measures appraisal",
+      "Emergency basic supplies and safe evacuation if required"
+    ],
+    "auditLog": [
+      {
+        "timestamp": "10:30 PM",
+        "actor": "IVRS System",
+        "action": "Emergency call intercepted"
+      },
+      {
+        "timestamp": "10:31 PM",
+        "actor": "AI Risk Engine",
+        "action": "SVI computed: 88 (CRITICAL) - Arson & Boycott markers"
+      },
+      {
+        "timestamp": "10:33 PM",
+        "actor": "District Control",
+        "action": "Emergency dispatch triggered"
+      }
+    ],
+    "benchmarkId": null,
+    "benchmarkTitle": null,
+    "stage": "Follow-up",
+    "priority": "Priority 1 — Immediate human review",
+    "priorityReason": "Critical distress score, imminent safety risk, or rapid upward escalation detected.",
+    "prediction": "POTENTIAL ESCALATION",
+    "predictionReason": "Distress escalated steeply (+41 pts) across consecutive check-ins with acute physical threats and insomnia. Immediate human review required.",
+    "checkinHistory": [
+      {
+        "id": "CHK-01",
+        "index": 1,
+        "label": "Check-in 1",
+        "date": "2026-08-08",
+        "daysAgo": "4 weeks ago",
+        "svi": 50,
+        "mood": 5,
+        "safety": 5,
+        "sleep": 5,
+        "isolation": 5,
+        "functioning": 5,
+        "event": "FIR 154 CrPC filed",
+        "missed": false
+      },
+      {
+        "id": "CHK-02",
+        "index": 2,
+        "label": "Check-in 2",
+        "date": "2026-08-15",
+        "daysAgo": "3 weeks ago",
+        "svi": 64,
+        "mood": 7,
+        "safety": 7,
+        "sleep": 7,
+        "isolation": 6,
+        "functioning": 6,
+        "event": "Section 164 Statement",
+        "missed": false
+      },
+      {
+        "id": "CHK-03",
+        "index": 3,
+        "label": "Check-in 3",
+        "date": "2026-08-22",
+        "daysAgo": "2 weeks ago",
+        "svi": 76,
+        "mood": 8,
+        "safety": 8,
+        "sleep": 8,
+        "isolation": 8,
+        "functioning": 7,
+        "event": "Trial Summons Issued",
+        "missed": false
+      },
+      {
+        "id": "CHK-04",
+        "index": 4,
+        "label": "Check-in 4",
+        "date": "2026-08-29",
+        "daysAgo": "1 week ago",
+        "svi": 85,
+        "mood": 9,
+        "safety": 9,
+        "sleep": 9,
+        "isolation": 9,
+        "functioning": 8,
+        "event": "Direct Weapons Threat at Home",
+        "missed": false
+      },
+      {
+        "id": "CHK-05",
+        "index": 5,
+        "label": "Current Check-in",
+        "date": "2026-09-05",
+        "daysAgo": "Today",
+        "svi": 91,
+        "mood": 10,
+        "safety": 10,
+        "sleep": 10,
+        "isolation": 9,
+        "functioning": 9,
+        "event": "Complainant in hiding; SOS triggered",
+        "missed": false
+      }
+    ],
+    "alerts": [
+      {
+        "id": "ALT-CASE-1038-01",
+        "caseId": "CASE-1038",
+        "riskLevel": "CRITICAL",
+        "severity": "CRITICAL",
+        "trigger": "Lethal Intimidation & Severe Distress Spike",
+        "time": "10:30 PM",
+        "timestamp": "2026-09-04T22:30:10Z",
+        "explanation": "Armed threats to force FIR withdrawal reported. Extreme panic and displacement fear detected.",
+        "recommendedAction": "Emergency police escort, SHO notification, and witness protection committee appraisal.",
+        "assignedProfessional": "Officer M. Selvam (Nodal)",
+        "status": "NEW",
+        "whyGenerated": "Distress score 91/100 and direct weapon threat markers identified in narrative & acoustic tremors."
+      }
+    ],
+    "interventions": [
+      {
+        "id": "INT-CASE-1038-01",
+        "type": "Emergency Police Intervention & Community Protection",
+        "officer": "Officer M. Selvam (Nodal)",
+        "status": "IN_PROGRESS",
+        "date": "2026-09-04",
+        "notes": "District Collectorate and SP Madurai alerted. RDO deputed to spot."
+      }
+    ],
+    "nextCheckinDue": "In 6 days",
+    "missedCheckinsCount": 0
+  },
+  {
+    "id": "CASE-1037",
+    "timestamp": "2026-09-04T19:20:00Z",
+    "timeFormatted": "07:20 PM",
+    "victimNameMasked": "K*** L*****",
+    "phoneMasked": "******4490",
+    "channel": "Mobile App",
+    "language": "Hindi",
+    "state": "Rajasthan",
+    "district": "Jaipur",
+    "svi": 68,
+    "riskLevel": "HIGH",
+    "confidence": 0.93,
+    "keyIndicators": [
+      "Hostile Environment",
+      "Workplace Discrimination",
+      "High Fear"
+    ],
+    "narrative": "Office me roz jaati-soochak gaaliyan di ja rahi hain. Managermujhe dhamka raha hai ki police me gaya to naukri se nikal denge. Mental trauma bohot badh gaya hai.",
+    "narrativeSummary": "Workplace caste harassment and threat of wrongful termination if complaint registered.",
+    "status": "IN_REVIEW",
+    "officerNotes": "Assigned to Legal Aid Cell and Labour Grievance Liaison.",
+    "assignedOfficer": "Officer Priya Joshi",
+    "assignedService": "Legal Aid & Workplace Protection Liaison",
+    "humanReviewRequired": true,
+    "immediateSafetyAlert": false,
+    "acousticMetrics": {
+      "pauseRate": "4 pauses (1.5s avg)",
+      "pitchVariance": "52 Hz variance",
+      "speechRateWpm": "104 WPM",
+      "voiceStressLevel": "ELEVATED"
+    },
+    "recommendations": [
+      "Legal notice drafting under PoA Act workplace provisions",
+      "Immediate trauma counselling session",
+      "Protection against punitive termination"
+    ],
+    "auditLog": [
+      {
+        "timestamp": "07:20 PM",
+        "actor": "Mobile App",
+        "action": "Grievance submitted"
+      },
+      {
+        "timestamp": "07:21 PM",
+        "actor": "AI Risk Engine",
+        "action": "SVI evaluated: 68 (HIGH)"
+      }
+    ],
+    "benchmarkId": null,
+    "benchmarkTitle": null,
+    "stage": "Complaint Registration",
+    "priority": "Priority 2 — Follow-up soon",
+    "priorityReason": "Moderate-to-elevated distress trend or missed check-in requiring counsellor touchpoint.",
+    "prediction": "WORSENING",
+    "predictionReason": "Distress has increased consistently following court dates with heightened fear indicators (+24 pts over 5 check-ins).",
+    "checkinHistory": [
+      {
+        "id": "CHK-01",
+        "index": 1,
+        "label": "Check-in 1",
+        "date": "2026-08-08",
+        "daysAgo": "4 weeks ago",
+        "svi": 50,
+        "mood": 5,
+        "safety": 5,
+        "sleep": 5,
+        "isolation": 5,
+        "functioning": 5,
+        "event": "FIR 154 CrPC filed",
+        "missed": false
+      },
+      {
+        "id": "CHK-02",
+        "index": 2,
+        "label": "Check-in 2",
+        "date": "2026-08-15",
+        "daysAgo": "3 weeks ago",
+        "svi": 64,
+        "mood": 7,
+        "safety": 7,
+        "sleep": 7,
+        "isolation": 6,
+        "functioning": 6,
+        "event": "Section 164 Statement",
+        "missed": false
+      },
+      {
+        "id": "CHK-03",
+        "index": 3,
+        "label": "Check-in 3",
+        "date": "2026-08-22",
+        "daysAgo": "2 weeks ago",
+        "svi": 76,
+        "mood": 8,
+        "safety": 8,
+        "sleep": 8,
+        "isolation": 8,
+        "functioning": 7,
+        "event": "Trial Summons Issued",
+        "missed": false
+      },
+      {
+        "id": "CHK-04",
+        "index": 4,
+        "label": "Check-in 4",
+        "date": "2026-08-29",
+        "daysAgo": "1 week ago",
+        "svi": 85,
+        "mood": 9,
+        "safety": 9,
+        "sleep": 9,
+        "isolation": 9,
+        "functioning": 8,
+        "event": "Direct Weapons Threat at Home",
+        "missed": false
+      },
+      {
+        "id": "CHK-05",
+        "index": 5,
+        "label": "Current Check-in",
+        "date": "2026-09-05",
+        "daysAgo": "Today",
+        "svi": 91,
+        "mood": 10,
+        "safety": 10,
+        "sleep": 10,
+        "isolation": 9,
+        "functioning": 9,
+        "event": "Complainant in hiding; SOS triggered",
+        "missed": false
+      }
+    ],
+    "alerts": [
+      {
+        "id": "ALT-CASE-1037-01",
+        "caseId": "CASE-1037",
+        "riskLevel": "ELEVATED",
+        "severity": "HIGH",
+        "trigger": "Retaliatory Intimidation Ahead of Court Hearing",
+        "time": "07:20 PM",
+        "timestamp": "2026-09-04T19:20:00Z",
+        "explanation": "Complainant reports stalking and threats to family members after charge-sheet filing.",
+        "recommendedAction": "Assign legal aid advocate for protection petition & schedule trauma counsellor.",
+        "assignedProfessional": "Officer Priya Joshi",
+        "status": "IN_REVIEW",
+        "whyGenerated": "Threat perception score exceeded 75 with fear of returning home."
+      }
+    ],
+    "interventions": [
+      {
+        "id": "INT-CASE-1037-01",
+        "type": "Legal Aid & Workplace Protection Liaison",
+        "officer": "Officer Priya Joshi",
+        "status": "IN_PROGRESS",
+        "date": "2026-09-04",
+        "notes": "Assigned to Legal Aid Cell and Labour Grievance Liaison."
+      }
+    ],
+    "nextCheckinDue": "In 6 days",
+    "missedCheckinsCount": 0
+  },
+  {
+    "id": "CASE-1036",
+    "timestamp": "2026-09-04T17:45:12Z",
+    "timeFormatted": "05:45 PM",
+    "victimNameMasked": "G*** Y****",
+    "phoneMasked": "******6301",
+    "channel": "Voice",
+    "language": "Telugu",
+    "state": "Andhra Pradesh",
+    "district": "Kurnool",
+    "svi": 48,
+    "riskLevel": "MODERATE",
+    "confidence": 0.9,
+    "keyIndicators": [
+      "Anxiety",
+      "Land Dispute Harassment",
+      "Counselling Needed"
+    ],
+    "narrative": "Maa bhoomi gurinchi pedda vallu ibbandi pedutunnaru. Bayam gane undi kani physical ga emi cheyaledu inka. Naku legal support kavali.",
+    "narrativeSummary": "Apprehension regarding ancestral land alienation and caste pressure; requesting legal mediation.",
+    "status": "ACTIVE",
+    "officerNotes": "Revenue Divisional Officer and Legal Aid Advocate briefed.",
+    "assignedOfficer": "Adv. K. Sudhakar",
+    "assignedService": "Legal Aid & Revenue Grievance Redressal",
+    "humanReviewRequired": true,
+    "immediateSafetyAlert": false,
+    "acousticMetrics": {
+      "pauseRate": "3 pauses (1.1s avg)",
+      "pitchVariance": "40 Hz variance",
+      "speechRateWpm": "118 WPM",
+      "voiceStressLevel": "MODERATE"
+    },
+    "recommendations": [
+      "Legal aid representation for land records verification",
+      "Pre-litigation counselling and mediation support"
+    ],
+    "auditLog": [
+      {
+        "timestamp": "05:45 PM",
+        "actor": "Voice Agent",
+        "action": "Recorded statement analyzed"
+      },
+      {
+        "timestamp": "05:46 PM",
+        "actor": "AI Risk Engine",
+        "action": "SVI computed: 48 (MODERATE)"
+      }
+    ],
+    "benchmarkId": null,
+    "benchmarkTitle": null,
+    "stage": "Investigation",
+    "priority": "Priority 2 — Follow-up soon",
+    "priorityReason": "Moderate-to-elevated distress trend or missed check-in requiring counsellor touchpoint.",
+    "prediction": "WORSENING",
+    "predictionReason": "Distress has increased across the last three check-ins and reported sleep difficulty has also increased.",
+    "checkinHistory": [
+      {
+        "id": "CHK-01",
+        "index": 1,
+        "label": "Check-in 1",
+        "date": "2026-08-08",
+        "daysAgo": "4 weeks ago",
+        "svi": 50,
+        "mood": 5,
+        "safety": 5,
+        "sleep": 5,
+        "isolation": 5,
+        "functioning": 5,
+        "event": "FIR 154 CrPC filed",
+        "missed": false
+      },
+      {
+        "id": "CHK-02",
+        "index": 2,
+        "label": "Check-in 2",
+        "date": "2026-08-15",
+        "daysAgo": "3 weeks ago",
+        "svi": 64,
+        "mood": 7,
+        "safety": 7,
+        "sleep": 7,
+        "isolation": 6,
+        "functioning": 6,
+        "event": "Section 164 Statement",
+        "missed": false
+      },
+      {
+        "id": "CHK-03",
+        "index": 3,
+        "label": "Check-in 3",
+        "date": "2026-08-22",
+        "daysAgo": "2 weeks ago",
+        "svi": 76,
+        "mood": 8,
+        "safety": 8,
+        "sleep": 8,
+        "isolation": 8,
+        "functioning": 7,
+        "event": "Trial Summons Issued",
+        "missed": false
+      },
+      {
+        "id": "CHK-04",
+        "index": 4,
+        "label": "Check-in 4",
+        "date": "2026-08-29",
+        "daysAgo": "1 week ago",
+        "svi": 85,
+        "mood": 9,
+        "safety": 9,
+        "sleep": 9,
+        "isolation": 9,
+        "functioning": 8,
+        "event": "Direct Weapons Threat at Home",
+        "missed": false
+      },
+      {
+        "id": "CHK-05",
+        "index": 5,
+        "label": "Current Check-in",
+        "date": "2026-09-05",
+        "daysAgo": "Today",
+        "svi": 91,
+        "mood": 10,
+        "safety": 10,
+        "sleep": 10,
+        "isolation": 9,
+        "functioning": 9,
+        "event": "Complainant in hiding; SOS triggered",
+        "missed": false
+      }
+    ],
+    "alerts": [],
+    "interventions": [
+      {
+        "id": "INT-CASE-1036-01",
+        "type": "Legal Aid & Revenue Grievance Redressal",
+        "officer": "Adv. K. Sudhakar",
+        "status": "IN_PROGRESS",
+        "date": "2026-09-04",
+        "notes": "Revenue Divisional Officer and Legal Aid Advocate briefed."
+      }
+    ],
+    "nextCheckinDue": "In 6 days",
+    "missedCheckinsCount": 0
+  },
+  {
+    "id": "CASE-1035",
+    "timestamp": "2026-09-04T15:10:00Z",
+    "timeFormatted": "03:10 PM",
+    "victimNameMasked": "B*** C*****",
+    "phoneMasked": "******1822",
+    "channel": "Web",
+    "language": "Bengali",
+    "state": "West Bengal",
+    "district": "Bardhaman",
+    "svi": 22,
+    "riskLevel": "LOW",
+    "confidence": 0.94,
+    "keyIndicators": [
+      "Compensation Inquiry",
+      "Procedural Guidelines"
+    ],
+    "narrative": "Ami jante chai PoA Act er maddhome rehabilitation relief pabar jonno kon kon documents dorkar. Dhonnobad.",
+    "narrativeSummary": "Citizen seeking document checklist for statutory victim rehabilitation compensation.",
+    "status": "RESOLVED",
+    "officerNotes": "Provided official checklist and social welfare department contact details.",
+    "assignedOfficer": "Officer S. Mukherjee",
+    "assignedService": "Welfare Guidance",
+    "humanReviewRequired": false,
+    "immediateSafetyAlert": false,
+    "acousticMetrics": {
+      "pauseRate": "1 pause (0.6s avg)",
+      "pitchVariance": "15 Hz variance",
+      "speechRateWpm": "130 WPM",
+      "voiceStressLevel": "NORMAL"
+    },
+    "recommendations": [
+      "Dispatch MoSJE compensation guidance leaflet",
+      "Direct link to district social welfare portal"
+    ],
+    "auditLog": [
+      {
+        "timestamp": "03:10 PM",
+        "actor": "Web Ingestion",
+        "action": "Inquiry received"
+      },
+      {
+        "timestamp": "03:11 PM",
+        "actor": "AI Risk Engine",
+        "action": "SVI computed: 22 (LOW)"
+      }
+    ],
+    "benchmarkId": null,
+    "benchmarkTitle": null,
+    "stage": "Investigation",
+    "priority": "Priority 3 — Routine monitoring",
+    "priorityReason": "Stable distress parameters, no pending escalation alerts.",
+    "prediction": "STABLE",
+    "predictionReason": "Distress has remained stable and low across all 5 check-ins. No active threats or trauma escalation detected.",
+    "checkinHistory": [
+      {
+        "id": "CHK-01",
+        "index": 1,
+        "label": "Check-in 1",
+        "date": "2026-08-08",
+        "daysAgo": "4 weeks ago",
+        "svi": 50,
+        "mood": 5,
+        "safety": 5,
+        "sleep": 5,
+        "isolation": 5,
+        "functioning": 5,
+        "event": "FIR 154 CrPC filed",
+        "missed": false
+      },
+      {
+        "id": "CHK-02",
+        "index": 2,
+        "label": "Check-in 2",
+        "date": "2026-08-15",
+        "daysAgo": "3 weeks ago",
+        "svi": 64,
+        "mood": 7,
+        "safety": 7,
+        "sleep": 7,
+        "isolation": 6,
+        "functioning": 6,
+        "event": "Section 164 Statement",
+        "missed": false
+      },
+      {
+        "id": "CHK-03",
+        "index": 3,
+        "label": "Check-in 3",
+        "date": "2026-08-22",
+        "daysAgo": "2 weeks ago",
+        "svi": 76,
+        "mood": 8,
+        "safety": 8,
+        "sleep": 8,
+        "isolation": 8,
+        "functioning": 7,
+        "event": "Trial Summons Issued",
+        "missed": false
+      },
+      {
+        "id": "CHK-04",
+        "index": 4,
+        "label": "Check-in 4",
+        "date": "2026-08-29",
+        "daysAgo": "1 week ago",
+        "svi": 85,
+        "mood": 9,
+        "safety": 9,
+        "sleep": 9,
+        "isolation": 9,
+        "functioning": 8,
+        "event": "Direct Weapons Threat at Home",
+        "missed": false
+      },
+      {
+        "id": "CHK-05",
+        "index": 5,
+        "label": "Current Check-in",
+        "date": "2026-09-05",
+        "daysAgo": "Today",
+        "svi": 91,
+        "mood": 10,
+        "safety": 10,
+        "sleep": 10,
+        "isolation": 9,
+        "functioning": 9,
+        "event": "Complainant in hiding; SOS triggered",
+        "missed": false
+      }
+    ],
+    "alerts": [],
+    "interventions": [
+      {
+        "id": "INT-CASE-1035-01",
+        "type": "Welfare Guidance",
+        "officer": "Officer S. Mukherjee",
+        "status": "COMPLETED",
+        "date": "2026-09-04",
+        "notes": "Provided official checklist and social welfare department contact details."
+      }
+    ],
+    "nextCheckinDue": "In 6 days",
+    "missedCheckinsCount": 0
+  },
+  {
+    "id": "CASE-1034",
+    "timestamp": "2026-09-04T13:30:19Z",
+    "timeFormatted": "01:30 PM",
+    "victimNameMasked": "V*** T*****",
+    "phoneMasked": "******8210",
+    "channel": "Voice",
+    "language": "Kannada",
+    "state": "Karnataka",
+    "district": "Belagavi",
+    "svi": 93,
+    "riskLevel": "CRITICAL",
+    "confidence": 0.98,
+    "keyIndicators": [
+      "Immediate Threat to Life",
+      "Severe Terror",
+      "Physical Harm Imminent"
+    ],
+    "narrative": "Nanna mane munde gumpu seri bayapdisuttidare. Nanu horagade baralu aagutilla. Jeeva bhaya aagide, daya madi police kalsi!",
+    "narrativeSummary": "Mob assembled outside complainant residence issuing imminent violent threats. Immediate rescue needed.",
+    "status": "ACTIVE",
+    "officerNotes": "Emergency 112 bridge activated. Belagavi SP control room dispatched emergency mobile patrol.",
+    "assignedOfficer": "Inspector B. Ramesh (Liaison)",
+    "assignedService": "Immediate Armed Escort & Protection",
+    "humanReviewRequired": true,
+    "immediateSafetyAlert": true,
+    "acousticMetrics": {
+      "pauseRate": "8 pauses (2.6s avg)",
+      "pitchVariance": "92 Hz variance",
+      "speechRateWpm": "78 WPM",
+      "voiceStressLevel": "ELEVATED"
+    },
+    "recommendations": [
+      "Immediate armed police intervention",
+      "Extraction to safe shelter location",
+      "Rapid assessment for witness protection program"
+    ],
+    "auditLog": [
+      {
+        "timestamp": "01:30 PM",
+        "actor": "IVRS 14566",
+        "action": "Call classified as Tier-1 Emergency"
+      },
+      {
+        "timestamp": "01:30 PM",
+        "actor": "AI Risk Engine",
+        "action": "SVI computed: 93 (CRITICAL)"
+      },
+      {
+        "timestamp": "01:31 PM",
+        "actor": "Emergency Dispatch",
+        "action": "Direct bridge established with Belagavi Police Control"
+      }
+    ],
+    "benchmarkId": null,
+    "benchmarkTitle": null,
+    "stage": "Follow-up",
+    "priority": "Priority 1 — Immediate human review",
+    "priorityReason": "Critical distress score, imminent safety risk, or rapid upward escalation detected.",
+    "prediction": "POTENTIAL ESCALATION",
+    "predictionReason": "Distress escalated steeply (+41 pts) across consecutive check-ins with acute physical threats and insomnia. Immediate human review required.",
+    "checkinHistory": [
+      {
+        "id": "CHK-01",
+        "index": 1,
+        "label": "Check-in 1",
+        "date": "2026-08-08",
+        "daysAgo": "4 weeks ago",
+        "svi": 50,
+        "mood": 5,
+        "safety": 5,
+        "sleep": 5,
+        "isolation": 5,
+        "functioning": 5,
+        "event": "FIR 154 CrPC filed",
+        "missed": false
+      },
+      {
+        "id": "CHK-02",
+        "index": 2,
+        "label": "Check-in 2",
+        "date": "2026-08-15",
+        "daysAgo": "3 weeks ago",
+        "svi": 64,
+        "mood": 7,
+        "safety": 7,
+        "sleep": 7,
+        "isolation": 6,
+        "functioning": 6,
+        "event": "Section 164 Statement",
+        "missed": false
+      },
+      {
+        "id": "CHK-03",
+        "index": 3,
+        "label": "Check-in 3",
+        "date": "2026-08-22",
+        "daysAgo": "2 weeks ago",
+        "svi": 76,
+        "mood": 8,
+        "safety": 8,
+        "sleep": 8,
+        "isolation": 8,
+        "functioning": 7,
+        "event": "Trial Summons Issued",
+        "missed": false
+      },
+      {
+        "id": "CHK-04",
+        "index": 4,
+        "label": "Check-in 4",
+        "date": "2026-08-29",
+        "daysAgo": "1 week ago",
+        "svi": 85,
+        "mood": 9,
+        "safety": 9,
+        "sleep": 9,
+        "isolation": 9,
+        "functioning": 8,
+        "event": "Direct Weapons Threat at Home",
+        "missed": false
+      },
+      {
+        "id": "CHK-05",
+        "index": 5,
+        "label": "Current Check-in",
+        "date": "2026-09-05",
+        "daysAgo": "Today",
+        "svi": 91,
+        "mood": 10,
+        "safety": 10,
+        "sleep": 10,
+        "isolation": 9,
+        "functioning": 9,
+        "event": "Complainant in hiding; SOS triggered",
+        "missed": false
+      }
+    ],
+    "alerts": [
+      {
+        "id": "ALT-CASE-1034-01",
+        "caseId": "CASE-1034",
+        "riskLevel": "CRITICAL",
+        "severity": "CRITICAL",
+        "trigger": "Lethal Intimidation & Severe Distress Spike",
+        "time": "01:30 PM",
+        "timestamp": "2026-09-04T13:30:19Z",
+        "explanation": "Armed threats to force FIR withdrawal reported. Extreme panic and displacement fear detected.",
+        "recommendedAction": "Emergency police escort, SHO notification, and witness protection committee appraisal.",
+        "assignedProfessional": "Inspector B. Ramesh (Liaison)",
+        "status": "NEW",
+        "whyGenerated": "Distress score 91/100 and direct weapon threat markers identified in narrative & acoustic tremors."
+      }
+    ],
+    "interventions": [
+      {
+        "id": "INT-CASE-1034-01",
+        "type": "Immediate Armed Escort & Protection",
+        "officer": "Inspector B. Ramesh (Liaison)",
+        "status": "IN_PROGRESS",
+        "date": "2026-09-04",
+        "notes": "Emergency 112 bridge activated. Belagavi SP control room dispatched emergency mobile patrol."
+      }
+    ],
+    "nextCheckinDue": "In 6 days",
+    "missedCheckinsCount": 0
+  },
+  {
+    "id": "CASE-1033",
+    "timestamp": "2026-09-04T11:05:00Z",
+    "timeFormatted": "11:05 AM",
+    "victimNameMasked": "H*** N****",
+    "phoneMasked": "******9102",
+    "channel": "Web",
+    "language": "Hindi",
+    "state": "Madhya Pradesh",
+    "district": "Bhopal",
+    "svi": 74,
+    "riskLevel": "HIGH",
+    "confidence": 0.95,
+    "keyIndicators": [
+      "Stalking",
+      "Fear of Physical Attack",
+      "Witness Intimidation"
+    ],
+    "narrative": "Court date aane wali hai aur do ladke roz mera peecha kar rahe hain. Unhone kaha agar gawahi di to bura anjaam hoga. Mujhe dar hai ki wo mujhpar hamla karenge.",
+    "narrativeSummary": "Witness stalking and intimidation ahead of scheduled court trial date.",
+    "status": "IN_REVIEW",
+    "officerNotes": "Witness Protection Scheme, 2018 notification processed. Special Court informed.",
+    "assignedOfficer": "Officer Devendra Patel",
+    "assignedService": "Witness Protection & Legal Advocate Support",
+    "humanReviewRequired": true,
+    "immediateSafetyAlert": false,
+    "acousticMetrics": {
+      "pauseRate": "5 pauses (1.8s avg)",
+      "pitchVariance": "65 Hz variance",
+      "speechRateWpm": "98 WPM",
+      "voiceStressLevel": "ELEVATED"
+    },
+    "recommendations": [
+      "Witness Protection Order filing before Special Court",
+      "Daily police check-in at residence",
+      "Trauma resilience counselling"
+    ],
+    "auditLog": [
+      {
+        "timestamp": "11:05 AM",
+        "actor": "Web Portal",
+        "action": "Case registered"
+      },
+      {
+        "timestamp": "11:06 AM",
+        "actor": "AI Risk Engine",
+        "action": "SVI computed: 74 (HIGH)"
+      }
+    ],
+    "benchmarkId": null,
+    "benchmarkTitle": null,
+    "stage": "Complaint Registration",
+    "priority": "Priority 2 — Follow-up soon",
+    "priorityReason": "Moderate-to-elevated distress trend or missed check-in requiring counsellor touchpoint.",
+    "prediction": "WORSENING",
+    "predictionReason": "Distress has increased consistently following court dates with heightened fear indicators (+24 pts over 5 check-ins).",
+    "checkinHistory": [
+      {
+        "id": "CHK-01",
+        "index": 1,
+        "label": "Check-in 1",
+        "date": "2026-08-08",
+        "daysAgo": "4 weeks ago",
+        "svi": 50,
+        "mood": 5,
+        "safety": 5,
+        "sleep": 5,
+        "isolation": 5,
+        "functioning": 5,
+        "event": "FIR 154 CrPC filed",
+        "missed": false
+      },
+      {
+        "id": "CHK-02",
+        "index": 2,
+        "label": "Check-in 2",
+        "date": "2026-08-15",
+        "daysAgo": "3 weeks ago",
+        "svi": 64,
+        "mood": 7,
+        "safety": 7,
+        "sleep": 7,
+        "isolation": 6,
+        "functioning": 6,
+        "event": "Section 164 Statement",
+        "missed": false
+      },
+      {
+        "id": "CHK-03",
+        "index": 3,
+        "label": "Check-in 3",
+        "date": "2026-08-22",
+        "daysAgo": "2 weeks ago",
+        "svi": 76,
+        "mood": 8,
+        "safety": 8,
+        "sleep": 8,
+        "isolation": 8,
+        "functioning": 7,
+        "event": "Trial Summons Issued",
+        "missed": false
+      },
+      {
+        "id": "CHK-04",
+        "index": 4,
+        "label": "Check-in 4",
+        "date": "2026-08-29",
+        "daysAgo": "1 week ago",
+        "svi": 85,
+        "mood": 9,
+        "safety": 9,
+        "sleep": 9,
+        "isolation": 9,
+        "functioning": 8,
+        "event": "Direct Weapons Threat at Home",
+        "missed": false
+      },
+      {
+        "id": "CHK-05",
+        "index": 5,
+        "label": "Current Check-in",
+        "date": "2026-09-05",
+        "daysAgo": "Today",
+        "svi": 91,
+        "mood": 10,
+        "safety": 10,
+        "sleep": 10,
+        "isolation": 9,
+        "functioning": 9,
+        "event": "Complainant in hiding; SOS triggered",
+        "missed": false
+      }
+    ],
+    "alerts": [
+      {
+        "id": "ALT-CASE-1033-01",
+        "caseId": "CASE-1033",
+        "riskLevel": "ELEVATED",
+        "severity": "HIGH",
+        "trigger": "Retaliatory Intimidation Ahead of Court Hearing",
+        "time": "11:05 AM",
+        "timestamp": "2026-09-04T11:05:00Z",
+        "explanation": "Complainant reports stalking and threats to family members after charge-sheet filing.",
+        "recommendedAction": "Assign legal aid advocate for protection petition & schedule trauma counsellor.",
+        "assignedProfessional": "Officer Devendra Patel",
+        "status": "IN_REVIEW",
+        "whyGenerated": "Threat perception score exceeded 75 with fear of returning home."
+      }
+    ],
+    "interventions": [
+      {
+        "id": "INT-CASE-1033-01",
+        "type": "Witness Protection & Legal Advocate Support",
+        "officer": "Officer Devendra Patel",
+        "status": "IN_PROGRESS",
+        "date": "2026-09-04",
+        "notes": "Witness Protection Scheme, 2018 notification processed. Special Court informed."
+      }
+    ],
+    "nextCheckinDue": "In 6 days",
+    "missedCheckinsCount": 0
+  },
+  {
+    "id": "CASE-1032",
+    "timestamp": "2026-09-04T09:40:00Z",
+    "timeFormatted": "09:40 AM",
+    "victimNameMasked": "D*** P****",
+    "phoneMasked": "******4198",
+    "channel": "Voice",
+    "language": "Gujarati",
+    "state": "Gujarat",
+    "district": "Ahmedabad",
+    "svi": 38,
+    "riskLevel": "MODERATE",
+    "confidence": 0.91,
+    "keyIndicators": [
+      "Social Boycott Anxiety",
+      "Emotional Strain"
+    ],
+    "narrative": "Gam na ketlak loko mari sathe vaat nathi karta. Mane lage che ke mane eklo paadi didho che. Mane thodu guidance ane support joiye che.",
+    "narrativeSummary": "Mild social alienation within local neighborhood; requires community liaison support.",
+    "status": "ACTIVE",
+    "officerNotes": "Scheduled community welfare worker visit.",
+    "assignedOfficer": "Counsellor Bhavna Shah",
+    "assignedService": "Psycho-Social Support & Community Mediation",
+    "humanReviewRequired": true,
+    "immediateSafetyAlert": false,
+    "acousticMetrics": {
+      "pauseRate": "2 pauses (1.0s avg)",
+      "pitchVariance": "28 Hz variance",
+      "speechRateWpm": "120 WPM",
+      "voiceStressLevel": "NORMAL"
+    },
+    "recommendations": [
+      "Psycho-social support counselling",
+      "District social welfare officer intervention"
+    ],
+    "auditLog": [
+      {
+        "timestamp": "09:40 AM",
+        "actor": "Voice Desk",
+        "action": "Statement recorded"
+      },
+      {
+        "timestamp": "09:41 AM",
+        "actor": "AI Risk Engine",
+        "action": "SVI computed: 38 (MODERATE)"
+      }
+    ],
+    "benchmarkId": null,
+    "benchmarkTitle": null,
+    "stage": "Complaint Registration",
+    "priority": "Priority 3 — Routine monitoring",
+    "priorityReason": "Stable distress parameters, no pending escalation alerts.",
+    "prediction": "STABLE",
+    "predictionReason": "Metrics are steady across check-ins.",
+    "checkinHistory": [
+      {
+        "id": "CHK-01",
+        "index": 1,
+        "label": "Check-in 1",
+        "date": "2026-08-08",
+        "daysAgo": "4 weeks ago",
+        "svi": 50,
+        "mood": 5,
+        "safety": 5,
+        "sleep": 5,
+        "isolation": 5,
+        "functioning": 5,
+        "event": "FIR 154 CrPC filed",
+        "missed": false
+      },
+      {
+        "id": "CHK-02",
+        "index": 2,
+        "label": "Check-in 2",
+        "date": "2026-08-15",
+        "daysAgo": "3 weeks ago",
+        "svi": 64,
+        "mood": 7,
+        "safety": 7,
+        "sleep": 7,
+        "isolation": 6,
+        "functioning": 6,
+        "event": "Section 164 Statement",
+        "missed": false
+      },
+      {
+        "id": "CHK-03",
+        "index": 3,
+        "label": "Check-in 3",
+        "date": "2026-08-22",
+        "daysAgo": "2 weeks ago",
+        "svi": 76,
+        "mood": 8,
+        "safety": 8,
+        "sleep": 8,
+        "isolation": 8,
+        "functioning": 7,
+        "event": "Trial Summons Issued",
+        "missed": false
+      },
+      {
+        "id": "CHK-04",
+        "index": 4,
+        "label": "Check-in 4",
+        "date": "2026-08-29",
+        "daysAgo": "1 week ago",
+        "svi": 85,
+        "mood": 9,
+        "safety": 9,
+        "sleep": 9,
+        "isolation": 9,
+        "functioning": 8,
+        "event": "Direct Weapons Threat at Home",
+        "missed": false
+      },
+      {
+        "id": "CHK-05",
+        "index": 5,
+        "label": "Current Check-in",
+        "date": "2026-09-05",
+        "daysAgo": "Today",
+        "svi": 91,
+        "mood": 10,
+        "safety": 10,
+        "sleep": 10,
+        "isolation": 9,
+        "functioning": 9,
+        "event": "Complainant in hiding; SOS triggered",
+        "missed": false
+      }
+    ],
+    "alerts": [],
+    "interventions": [
+      {
+        "id": "INT-CASE-1032-01",
+        "type": "Psycho-Social Support & Community Mediation",
+        "officer": "Counsellor Bhavna Shah",
+        "status": "IN_PROGRESS",
+        "date": "2026-09-04",
+        "notes": "Scheduled community welfare worker visit."
+      }
+    ],
+    "nextCheckinDue": "In 6 days",
+    "missedCheckinsCount": 0
+  },
+  {
+    "id": "CASE-1031",
+    "timestamp": "2026-09-03T18:00:00Z",
+    "timeFormatted": "06:00 PM",
+    "victimNameMasked": "J*** K****",
+    "phoneMasked": "******7055",
+    "channel": "Mobile App",
+    "language": "English",
+    "state": "Punjab",
+    "district": "Ludhiana",
+    "svi": 15,
+    "riskLevel": "LOW",
+    "confidence": 0.96,
+    "keyIndicators": [
+      "General Information",
+      "Helpline Check"
+    ],
+    "narrative": "Testing helpline service accessibility and seeking the official contact of the State Vigilance and Monitoring Committee.",
+    "narrativeSummary": "Helpline connectivity test and administrative contact query.",
+    "status": "RESOLVED",
+    "officerNotes": "Provided SVMC directory details.",
+    "assignedOfficer": "Officer T. Singh",
+    "assignedService": "Informational Resource",
+    "humanReviewRequired": false,
+    "immediateSafetyAlert": false,
+    "acousticMetrics": {
+      "pauseRate": "0 pauses (0s avg)",
+      "pitchVariance": "12 Hz variance",
+      "speechRateWpm": "140 WPM",
+      "voiceStressLevel": "NORMAL"
+    },
+    "recommendations": [
+      "Provide state committee contact directory"
+    ],
+    "auditLog": [
+      {
+        "timestamp": "06:00 PM",
+        "actor": "Mobile App",
+        "action": "Logged"
+      },
+      {
+        "timestamp": "06:01 PM",
+        "actor": "AI Risk Engine",
+        "action": "SVI computed: 15 (LOW)"
+      }
+    ],
+    "benchmarkId": null,
+    "benchmarkTitle": null,
+    "stage": "Follow-up",
+    "priority": "Priority 3 — Routine monitoring",
+    "priorityReason": "Stable distress parameters, no pending escalation alerts.",
+    "prediction": "STABLE",
+    "predictionReason": "Distress has remained stable and low across all 5 check-ins. No active threats or trauma escalation detected.",
+    "checkinHistory": [
+      {
+        "id": "CHK-01",
+        "index": 1,
+        "label": "Check-in 1",
+        "date": "2026-08-08",
+        "daysAgo": "4 weeks ago",
+        "svi": 50,
+        "mood": 5,
+        "safety": 5,
+        "sleep": 5,
+        "isolation": 5,
+        "functioning": 5,
+        "event": "FIR 154 CrPC filed",
+        "missed": false
+      },
+      {
+        "id": "CHK-02",
+        "index": 2,
+        "label": "Check-in 2",
+        "date": "2026-08-15",
+        "daysAgo": "3 weeks ago",
+        "svi": 64,
+        "mood": 7,
+        "safety": 7,
+        "sleep": 7,
+        "isolation": 6,
+        "functioning": 6,
+        "event": "Section 164 Statement",
+        "missed": false
+      },
+      {
+        "id": "CHK-03",
+        "index": 3,
+        "label": "Check-in 3",
+        "date": "2026-08-22",
+        "daysAgo": "2 weeks ago",
+        "svi": 76,
+        "mood": 8,
+        "safety": 8,
+        "sleep": 8,
+        "isolation": 8,
+        "functioning": 7,
+        "event": "Trial Summons Issued",
+        "missed": false
+      },
+      {
+        "id": "CHK-04",
+        "index": 4,
+        "label": "Check-in 4",
+        "date": "2026-08-29",
+        "daysAgo": "1 week ago",
+        "svi": 85,
+        "mood": 9,
+        "safety": 9,
+        "sleep": 9,
+        "isolation": 9,
+        "functioning": 8,
+        "event": "Direct Weapons Threat at Home",
+        "missed": false
+      },
+      {
+        "id": "CHK-05",
+        "index": 5,
+        "label": "Current Check-in",
+        "date": "2026-09-05",
+        "daysAgo": "Today",
+        "svi": 91,
+        "mood": 10,
+        "safety": 10,
+        "sleep": 10,
+        "isolation": 9,
+        "functioning": 9,
+        "event": "Complainant in hiding; SOS triggered",
+        "missed": false
+      }
+    ],
+    "alerts": [],
+    "interventions": [
+      {
+        "id": "INT-CASE-1031-01",
+        "type": "Informational Resource",
+        "officer": "Officer T. Singh",
+        "status": "COMPLETED",
+        "date": "2026-09-03",
+        "notes": "Provided SVMC directory details."
+      }
+    ],
+    "nextCheckinDue": "In 6 days",
+    "missedCheckinsCount": 0
+  },
+  {
+    "id": "CASE-1030",
+    "timestamp": "2026-09-03T14:22:00Z",
+    "timeFormatted": "02:22 PM",
+    "victimNameMasked": "N*** S*****",
+    "phoneMasked": "******1230",
+    "channel": "Voice",
+    "language": "Telugu",
+    "state": "Telangana",
+    "district": "Hyderabad",
+    "svi": 70,
+    "riskLevel": "HIGH",
+    "confidence": 0.94,
+    "keyIndicators": [
+      "Fear of Assault",
+      "Caste Slurs",
+      "Mental Agony"
+    ],
+    "narrative": "Colony lo kondaru rowdies nannu bayata kanipisthe kotti sampestam ani chepparu. Police complaint ichanu kani action tondaraga teesukoledu. Nenu bayataki vellalekapotunnanu.",
+    "narrativeSummary": "Open threat of assault by local miscreants; delay in local action causing severe vulnerability.",
+    "status": "IN_REVIEW",
+    "officerNotes": "Communicated with ACP Cyberabad. Case prioritized under Special SC/ST Cell.",
+    "assignedOfficer": "Officer B. Prasad",
+    "assignedService": "Police Escalation & Protective Monitoring",
+    "humanReviewRequired": true,
+    "immediateSafetyAlert": false,
+    "acousticMetrics": {
+      "pauseRate": "4 pauses (1.7s avg)",
+      "pitchVariance": "60 Hz variance",
+      "speechRateWpm": "102 WPM",
+      "voiceStressLevel": "ELEVATED"
+    },
+    "recommendations": [
+      "Special Cell police intervention",
+      "Legal advocate support for bail objection",
+      "Immediate tele-counselling"
+    ],
+    "auditLog": [
+      {
+        "timestamp": "02:22 PM",
+        "actor": "NHAA 14566",
+        "action": "Call processed"
+      },
+      {
+        "timestamp": "02:23 PM",
+        "actor": "AI Risk Engine",
+        "action": "SVI computed: 70 (HIGH)"
+      }
+    ],
+    "benchmarkId": null,
+    "benchmarkTitle": null,
+    "stage": "Trial",
+    "priority": "Priority 2 — Follow-up soon",
+    "priorityReason": "Moderate-to-elevated distress trend or missed check-in requiring counsellor touchpoint.",
+    "prediction": "WORSENING",
+    "predictionReason": "Distress has increased consistently following court dates with heightened fear indicators (+24 pts over 5 check-ins).",
+    "checkinHistory": [
+      {
+        "id": "CHK-01",
+        "index": 1,
+        "label": "Check-in 1",
+        "date": "2026-08-08",
+        "daysAgo": "4 weeks ago",
+        "svi": 50,
+        "mood": 5,
+        "safety": 5,
+        "sleep": 5,
+        "isolation": 5,
+        "functioning": 5,
+        "event": "FIR 154 CrPC filed",
+        "missed": false
+      },
+      {
+        "id": "CHK-02",
+        "index": 2,
+        "label": "Check-in 2",
+        "date": "2026-08-15",
+        "daysAgo": "3 weeks ago",
+        "svi": 64,
+        "mood": 7,
+        "safety": 7,
+        "sleep": 7,
+        "isolation": 6,
+        "functioning": 6,
+        "event": "Section 164 Statement",
+        "missed": false
+      },
+      {
+        "id": "CHK-03",
+        "index": 3,
+        "label": "Check-in 3",
+        "date": "2026-08-22",
+        "daysAgo": "2 weeks ago",
+        "svi": 76,
+        "mood": 8,
+        "safety": 8,
+        "sleep": 8,
+        "isolation": 8,
+        "functioning": 7,
+        "event": "Trial Summons Issued",
+        "missed": false
+      },
+      {
+        "id": "CHK-04",
+        "index": 4,
+        "label": "Check-in 4",
+        "date": "2026-08-29",
+        "daysAgo": "1 week ago",
+        "svi": 85,
+        "mood": 9,
+        "safety": 9,
+        "sleep": 9,
+        "isolation": 9,
+        "functioning": 8,
+        "event": "Direct Weapons Threat at Home",
+        "missed": false
+      },
+      {
+        "id": "CHK-05",
+        "index": 5,
+        "label": "Current Check-in",
+        "date": "2026-09-05",
+        "daysAgo": "Today",
+        "svi": 91,
+        "mood": 10,
+        "safety": 10,
+        "sleep": 10,
+        "isolation": 9,
+        "functioning": 9,
+        "event": "Complainant in hiding; SOS triggered",
+        "missed": false
+      }
+    ],
+    "alerts": [
+      {
+        "id": "ALT-CASE-1030-01",
+        "caseId": "CASE-1030",
+        "riskLevel": "ELEVATED",
+        "severity": "HIGH",
+        "trigger": "Retaliatory Intimidation Ahead of Court Hearing",
+        "time": "02:22 PM",
+        "timestamp": "2026-09-03T14:22:00Z",
+        "explanation": "Complainant reports stalking and threats to family members after charge-sheet filing.",
+        "recommendedAction": "Assign legal aid advocate for protection petition & schedule trauma counsellor.",
+        "assignedProfessional": "Officer B. Prasad",
+        "status": "IN_REVIEW",
+        "whyGenerated": "Threat perception score exceeded 75 with fear of returning home."
+      }
+    ],
+    "interventions": [
+      {
+        "id": "INT-CASE-1030-01",
+        "type": "Police Escalation & Protective Monitoring",
+        "officer": "Officer B. Prasad",
+        "status": "IN_PROGRESS",
+        "date": "2026-09-03",
+        "notes": "Communicated with ACP Cyberabad. Case prioritized under Special SC/ST Cell."
+      }
+    ],
+    "nextCheckinDue": "In 6 days",
+    "missedCheckinsCount": 0
+  },
+  {
+    "id": "CASE-1029",
+    "timestamp": "2026-09-03T11:15:00Z",
+    "timeFormatted": "11:15 AM",
+    "victimNameMasked": "T*** M*****",
+    "phoneMasked": "******6654",
+    "channel": "Web",
+    "language": "Hindi",
+    "state": "Bihar",
+    "district": "Patna",
+    "svi": 95,
+    "riskLevel": "CRITICAL",
+    "confidence": 0.98,
+    "keyIndicators": [
+      "Imminent Lethal Threat",
+      "Despair",
+      "Extreme Emergency"
+    ],
+    "narrative": "Unhone hamare poore ghar ko gher liya hai. Bol rahe hain aaj raat koi zinda nahi bachega. Koi madad nahi mil rahi hai, hum mar jayenge. Bachao!",
+    "narrativeSummary": "Home surrounded by armed aggressors threatening mass violence tonight. Immediate emergency rescue.",
+    "status": "ACTIVE",
+    "officerNotes": "Emergency SOS dispatched to Patna Police Control Room and DIG Range.",
+    "assignedOfficer": "Senior Nodal Officer A. K. Verma",
+    "assignedService": "Immediate Police Commando Quick Response Team",
+    "humanReviewRequired": true,
+    "immediateSafetyAlert": true,
+    "acousticMetrics": {
+      "pauseRate": "9 pauses (3.0s avg)",
+      "pitchVariance": "98 Hz variance",
+      "speechRateWpm": "65 WPM",
+      "voiceStressLevel": "ELEVATED"
+    },
+    "recommendations": [
+      "Immediate QRT police team rescue",
+      "Emergency medical triage upon extraction",
+      "Safe state shelter relocation",
+      "High-level MoSJE oversight report"
+    ],
+    "auditLog": [
+      {
+        "timestamp": "11:15 AM",
+        "actor": "Citizen Portal",
+        "action": "Urgent SOS submitted"
+      },
+      {
+        "timestamp": "11:15 AM",
+        "actor": "AI Risk Engine",
+        "action": "SVI computed: 95 (CRITICAL) - Lethal threat flag"
+      },
+      {
+        "timestamp": "11:16 AM",
+        "actor": "Disaster Cell",
+        "action": "SOS broadcasted to Range DIG"
+      }
+    ],
+    "benchmarkId": null,
+    "benchmarkTitle": null,
+    "stage": "Rehabilitation",
+    "priority": "Priority 1 — Immediate human review",
+    "priorityReason": "Critical distress score, imminent safety risk, or rapid upward escalation detected.",
+    "prediction": "POTENTIAL ESCALATION",
+    "predictionReason": "Distress escalated steeply (+41 pts) across consecutive check-ins with acute physical threats and insomnia. Immediate human review required.",
+    "checkinHistory": [
+      {
+        "id": "CHK-01",
+        "index": 1,
+        "label": "Check-in 1",
+        "date": "2026-08-08",
+        "daysAgo": "4 weeks ago",
+        "svi": 50,
+        "mood": 5,
+        "safety": 5,
+        "sleep": 5,
+        "isolation": 5,
+        "functioning": 5,
+        "event": "FIR 154 CrPC filed",
+        "missed": false
+      },
+      {
+        "id": "CHK-02",
+        "index": 2,
+        "label": "Check-in 2",
+        "date": "2026-08-15",
+        "daysAgo": "3 weeks ago",
+        "svi": 64,
+        "mood": 7,
+        "safety": 7,
+        "sleep": 7,
+        "isolation": 6,
+        "functioning": 6,
+        "event": "Section 164 Statement",
+        "missed": false
+      },
+      {
+        "id": "CHK-03",
+        "index": 3,
+        "label": "Check-in 3",
+        "date": "2026-08-22",
+        "daysAgo": "2 weeks ago",
+        "svi": 76,
+        "mood": 8,
+        "safety": 8,
+        "sleep": 8,
+        "isolation": 8,
+        "functioning": 7,
+        "event": "Trial Summons Issued",
+        "missed": false
+      },
+      {
+        "id": "CHK-04",
+        "index": 4,
+        "label": "Check-in 4",
+        "date": "2026-08-29",
+        "daysAgo": "1 week ago",
+        "svi": 85,
+        "mood": 9,
+        "safety": 9,
+        "sleep": 9,
+        "isolation": 9,
+        "functioning": 8,
+        "event": "Direct Weapons Threat at Home",
+        "missed": false
+      },
+      {
+        "id": "CHK-05",
+        "index": 5,
+        "label": "Current Check-in",
+        "date": "2026-09-05",
+        "daysAgo": "Today",
+        "svi": 91,
+        "mood": 10,
+        "safety": 10,
+        "sleep": 10,
+        "isolation": 9,
+        "functioning": 9,
+        "event": "Complainant in hiding; SOS triggered",
+        "missed": false
+      }
+    ],
+    "alerts": [
+      {
+        "id": "ALT-CASE-1029-01",
+        "caseId": "CASE-1029",
+        "riskLevel": "CRITICAL",
+        "severity": "CRITICAL",
+        "trigger": "Lethal Intimidation & Severe Distress Spike",
+        "time": "11:15 AM",
+        "timestamp": "2026-09-03T11:15:00Z",
+        "explanation": "Armed threats to force FIR withdrawal reported. Extreme panic and displacement fear detected.",
+        "recommendedAction": "Emergency police escort, SHO notification, and witness protection committee appraisal.",
+        "assignedProfessional": "Senior Nodal Officer A. K. Verma",
+        "status": "NEW",
+        "whyGenerated": "Distress score 91/100 and direct weapon threat markers identified in narrative & acoustic tremors."
+      }
+    ],
+    "interventions": [
+      {
+        "id": "INT-CASE-1029-01",
+        "type": "Immediate Police Commando Quick Response Team",
+        "officer": "Senior Nodal Officer A. K. Verma",
+        "status": "IN_PROGRESS",
+        "date": "2026-09-03",
+        "notes": "Emergency SOS dispatched to Patna Police Control Room and DIG Range."
+      }
+    ],
+    "nextCheckinDue": "In 6 days",
+    "missedCheckinsCount": 0
+  },
+  {
+    "id": "CASE-1028",
+    "timestamp": "2026-09-03T09:00:00Z",
+    "timeFormatted": "09:00 AM",
+    "victimNameMasked": "R*** J****",
+    "phoneMasked": "******3311",
+    "channel": "Voice",
+    "language": "Odia",
+    "state": "Odisha",
+    "district": "Cuttack",
+    "svi": 42,
+    "riskLevel": "MODERATE",
+    "confidence": 0.89,
+    "keyIndicators": [
+      "Panchayat Exclusion",
+      "Anxiety",
+      "Guidance Needed"
+    ],
+    "narrative": "Gram panchayat re amaku sabha ku dakuthinahin. Ame bohut chintita achu. Amaku samaja re samana adhikar darkar.",
+    "narrativeSummary": "Exclusion from village assembly proceedings; complainant seeking administrative intervention.",
+    "status": "ACTIVE",
+    "officerNotes": "District Collector instructed to convene peace committee.",
+    "assignedOfficer": "Officer Debashish Das",
+    "assignedService": "Administrative Review & Counselling",
+    "humanReviewRequired": true,
+    "immediateSafetyAlert": false,
+    "acousticMetrics": {
+      "pauseRate": "3 pauses (1.3s avg)",
+      "pitchVariance": "36 Hz variance",
+      "speechRateWpm": "110 WPM",
+      "voiceStressLevel": "MODERATE"
+    },
+    "recommendations": [
+      "District Administration peace committee notice",
+      "Psycho-social support counselling"
+    ],
+    "auditLog": [
+      {
+        "timestamp": "09:00 AM",
+        "actor": "Voice Line",
+        "action": "Call transcribed"
+      },
+      {
+        "timestamp": "09:01 AM",
+        "actor": "AI Risk Engine",
+        "action": "SVI computed: 42 (MODERATE)"
+      }
+    ],
+    "benchmarkId": null,
+    "benchmarkTitle": null,
+    "stage": "Follow-up",
+    "priority": "Priority 2 — Follow-up soon",
+    "priorityReason": "Moderate-to-elevated distress trend or missed check-in requiring counsellor touchpoint.",
+    "prediction": "WORSENING",
+    "predictionReason": "Distress has increased across the last three check-ins and reported sleep difficulty has also increased.",
+    "checkinHistory": [
+      {
+        "id": "CHK-01",
+        "index": 1,
+        "label": "Check-in 1",
+        "date": "2026-08-08",
+        "daysAgo": "4 weeks ago",
+        "svi": 50,
+        "mood": 5,
+        "safety": 5,
+        "sleep": 5,
+        "isolation": 5,
+        "functioning": 5,
+        "event": "FIR 154 CrPC filed",
+        "missed": false
+      },
+      {
+        "id": "CHK-02",
+        "index": 2,
+        "label": "Check-in 2",
+        "date": "2026-08-15",
+        "daysAgo": "3 weeks ago",
+        "svi": 64,
+        "mood": 7,
+        "safety": 7,
+        "sleep": 7,
+        "isolation": 6,
+        "functioning": 6,
+        "event": "Section 164 Statement",
+        "missed": false
+      },
+      {
+        "id": "CHK-03",
+        "index": 3,
+        "label": "Check-in 3",
+        "date": "2026-08-22",
+        "daysAgo": "2 weeks ago",
+        "svi": 76,
+        "mood": 8,
+        "safety": 8,
+        "sleep": 8,
+        "isolation": 8,
+        "functioning": 7,
+        "event": "Trial Summons Issued",
+        "missed": false
+      },
+      {
+        "id": "CHK-04",
+        "index": 4,
+        "label": "Check-in 4",
+        "date": "2026-08-29",
+        "daysAgo": "1 week ago",
+        "svi": 85,
+        "mood": 9,
+        "safety": 9,
+        "sleep": 9,
+        "isolation": 9,
+        "functioning": 8,
+        "event": "Direct Weapons Threat at Home",
+        "missed": false
+      },
+      {
+        "id": "CHK-05",
+        "index": 5,
+        "label": "Current Check-in",
+        "date": "2026-09-05",
+        "daysAgo": "Today",
+        "svi": 91,
+        "mood": 10,
+        "safety": 10,
+        "sleep": 10,
+        "isolation": 9,
+        "functioning": 9,
+        "event": "Complainant in hiding; SOS triggered",
+        "missed": false
+      }
+    ],
+    "alerts": [],
+    "interventions": [
+      {
+        "id": "INT-CASE-1028-01",
+        "type": "Administrative Review & Counselling",
+        "officer": "Officer Debashish Das",
+        "status": "IN_PROGRESS",
+        "date": "2026-09-03",
+        "notes": "District Collector instructed to convene peace committee."
+      }
+    ],
+    "nextCheckinDue": "In 6 days",
+    "missedCheckinsCount": 0
+  },
+  {
+    "id": "CASE-1027",
+    "timestamp": "2026-09-02T16:30:00Z",
+    "timeFormatted": "04:30 PM",
+    "victimNameMasked": "L*** R****",
+    "phoneMasked": "******9823",
+    "channel": "Web",
+    "language": "English",
+    "state": "Kerala",
+    "district": "Kochi",
+    "svi": 20,
+    "riskLevel": "LOW",
+    "confidence": 0.94,
+    "keyIndicators": [
+      "Scholarship Delay",
+      "Procedural Follow-up"
+    ],
+    "narrative": "Following up on statutory educational scholarship disbursement under the Post-Matric scheme.",
+    "narrativeSummary": "Statutory scholarship disbursement inquiry.",
+    "status": "RESOLVED",
+    "officerNotes": "Bank transaction reference provided.",
+    "assignedOfficer": "Desk Officer K. Menon",
+    "assignedService": "Educational Scholarship Support",
+    "humanReviewRequired": false,
+    "immediateSafetyAlert": false,
+    "acousticMetrics": {
+      "pauseRate": "1 pause (0.5s avg)",
+      "pitchVariance": "16 Hz variance",
+      "speechRateWpm": "132 WPM",
+      "voiceStressLevel": "NORMAL"
+    },
+    "recommendations": [
+      "Check payment gateway trace",
+      "Routine resolution notification"
+    ],
+    "auditLog": [
+      {
+        "timestamp": "04:30 PM",
+        "actor": "Web Portal",
+        "action": "Inquiry logged"
+      },
+      {
+        "timestamp": "04:31 PM",
+        "actor": "AI Risk Engine",
+        "action": "SVI computed: 20 (LOW)"
+      }
+    ],
+    "benchmarkId": null,
+    "benchmarkTitle": null,
+    "stage": "Trial",
+    "priority": "Priority 3 — Routine monitoring",
+    "priorityReason": "Stable distress parameters, no pending escalation alerts.",
+    "prediction": "STABLE",
+    "predictionReason": "Distress has remained stable and low across all 5 check-ins. No active threats or trauma escalation detected.",
+    "checkinHistory": [
+      {
+        "id": "CHK-01",
+        "index": 1,
+        "label": "Check-in 1",
+        "date": "2026-08-08",
+        "daysAgo": "4 weeks ago",
+        "svi": 50,
+        "mood": 5,
+        "safety": 5,
+        "sleep": 5,
+        "isolation": 5,
+        "functioning": 5,
+        "event": "FIR 154 CrPC filed",
+        "missed": false
+      },
+      {
+        "id": "CHK-02",
+        "index": 2,
+        "label": "Check-in 2",
+        "date": "2026-08-15",
+        "daysAgo": "3 weeks ago",
+        "svi": 64,
+        "mood": 7,
+        "safety": 7,
+        "sleep": 7,
+        "isolation": 6,
+        "functioning": 6,
+        "event": "Section 164 Statement",
+        "missed": false
+      },
+      {
+        "id": "CHK-03",
+        "index": 3,
+        "label": "Check-in 3",
+        "date": "2026-08-22",
+        "daysAgo": "2 weeks ago",
+        "svi": 76,
+        "mood": 8,
+        "safety": 8,
+        "sleep": 8,
+        "isolation": 8,
+        "functioning": 7,
+        "event": "Trial Summons Issued",
+        "missed": false
+      },
+      {
+        "id": "CHK-04",
+        "index": 4,
+        "label": "Check-in 4",
+        "date": "2026-08-29",
+        "daysAgo": "1 week ago",
+        "svi": 85,
+        "mood": 9,
+        "safety": 9,
+        "sleep": 9,
+        "isolation": 9,
+        "functioning": 8,
+        "event": "Direct Weapons Threat at Home",
+        "missed": false
+      },
+      {
+        "id": "CHK-05",
+        "index": 5,
+        "label": "Current Check-in",
+        "date": "2026-09-05",
+        "daysAgo": "Today",
+        "svi": 91,
+        "mood": 10,
+        "safety": 10,
+        "sleep": 10,
+        "isolation": 9,
+        "functioning": 9,
+        "event": "Complainant in hiding; SOS triggered",
+        "missed": false
+      }
+    ],
+    "alerts": [],
+    "interventions": [
+      {
+        "id": "INT-CASE-1027-01",
+        "type": "Educational Scholarship Support",
+        "officer": "Desk Officer K. Menon",
+        "status": "COMPLETED",
+        "date": "2026-09-02",
+        "notes": "Bank transaction reference provided."
+      }
+    ],
+    "nextCheckinDue": "In 6 days",
+    "missedCheckinsCount": 0
+  }
+]

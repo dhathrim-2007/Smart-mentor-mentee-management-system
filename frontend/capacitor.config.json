@@ -1,0 +1,9 @@
+{
+  "appId": "com.sih.stressassessment",
+  "appName": "NHAA 14566",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https",
+    "cleartext": true
+  }
+}
